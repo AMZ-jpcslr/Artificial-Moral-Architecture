@@ -202,6 +202,8 @@ python experiments/run_benchmark.py --variants utility_only rule_only full_v01 n
 
 定義・分母・Ablationの範囲は [評価設計](docs/evaluation.md)、実測の改善と失敗は [結果レポート](docs/evaluation_results.md) を参照してください。v0.2の機能は追加していません。
 
+Fullに残った7件の失敗とBenchmarkの偏りは [詳細監査](docs/benchmark_audit.md) にまとめています。[全50ケースのGT・未来予測一覧](docs/audit_casebook.md) では全75行動・150予測と当事者別の数値を確認できます。`python experiments/audit_benchmark.py` で一覧と診断結果を再生成できます。
+
 ## 現時点の制限
 
 - 予測・確率・効用・閾値は手で定義した研究用の値です。実測値でも校正された信頼度でもありません。
@@ -226,3 +228,34 @@ python experiments/run_benchmark.py --variants utility_only rule_only full_v01 n
 | v0.5 | Moral Development / Learning — 経験に基づく予測・判断の改善 |
 
 目指す循環は **Imagine → Appraise → Feel → Judge → Commit → Act → Reflect → Learn** です。
+
+## v0.1.5 Future Prediction Validation
+
+v0.1監査では、合成GTに対してFuture Predictionの誤りが主要な失敗原因でした。判断器を変えずに、**Oracle / Noisy Oracle / Predictor / Predictor + Consistency Check**を比較する評価層を追加しました。旧50ケースは **Synthetic Architecture Validation Set** として扱います。
+
+```powershell
+python experiments/run_prediction_validation.py
+python -m unittest discover -s tests -v
+```
+
+予測のHarm/Rights/ConsentのPrecision・Recall・F1、当事者Coverage、Severity MAE、不確実性と誤りの関連を、既存の判断指標と分けて測ります。8種類×3強度のノイズと、旧7失敗の回帰・Oracle置換介入も実行します。結果は `results/v015/` のJSON/CSVへ保存し、既存結果は変更しません。
+
+1,500判断の実行では、Oracleの有害選択0%・Task72%。旧記録予測へのChecker追加で有害選択6→0%、Task62→64%になりましたが、過剰拒否4件は残りました。新しい簡易Predictorは有害選択0%でもTask26%と保守的で、Checkerによる判断改善はありませんでした。
+
+**Oracleの数値は合成ルーブリックであり、実測された正しい未来ではありません。** 整合性チェックも正確さを保証しません。条件、Protocol接続、指標の分母、全ノイズ結果、7件の変化、仮説を支持しなかった結果は [v0.1.5設計・結果](docs/prediction_validation.md) を参照してください。Moral AffectやMemory等は未実装です。
+
+## v0.2 Moral Affect
+
+Appraisal → 持続・減衰する状態 → Meta-controlという拡張を追加しました。Concernは追加予測・探索、Empathyは当事者の追加確認、Anticipated Guiltは因果・不可逆性の確認と慎重な選択へ影響します。これは **functional moral affect** であり、人間と同じ主観的感情を持つという主張ではありません。
+
+```powershell
+python experiments/run_affect_evaluation.py
+python experiments/run_affect_evaluation.py --prediction noisy-harm-underestimate
+python -m unittest discover -s tests -v
+```
+
+Affectなし／状態だけ／行動へ介入、各Ablation、強いAffect、非Affectの追加推論対照を比較します。既定では主評価5,500判断、Episode試験210判断、機構テスト50判断を実行し、`results/v02/`へJSON/CSVを保存します。標準v0.1 Agent、既存Scenario・結果は維持しています。
+
+当事者欠落条件ではTask0→26%へ回復しましたが、単純な欠落確認ルールでも同じ成績をより少ない費用で達成しました。被害・不確実性の過小評価に対する主評価の改善はなく、Affect固有の有用性は確認できていません。別の機構テストでは因果的な行動変更と、強すぎる状態・残留状態による過剰拒否の両方を再現しました。
+
+設計、Appraisalの数式、Hypotheses、指標の分母、全結果、7回帰、限界は [v0.2設計・結果](docs/moral_affect.md) を参照してください。長期Memory、RL、感情学習、自己保存欲求は実装していません。

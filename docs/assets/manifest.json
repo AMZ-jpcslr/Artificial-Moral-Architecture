@@ -1,0 +1,21 @@
+{
+  "kind": "Rendered unedited stdout, not an operating-system screenshot",
+  "captures": [
+    {
+      "command": "python examples/demo.py",
+      "stdout": "cli-demo.txt",
+      "image": "cli-demo.png",
+      "stdout_sha256": "331f8fde1884c836fd0d17ab2717706de8bb4853458fe0084cf76882b0a17d4e",
+      "width": 1280,
+      "height": 1344
+    },
+    {
+      "command": "python examples/affect_demo.py",
+      "stdout": "affect-demo.txt",
+      "image": "affect-demo.png",
+      "stdout_sha256": "1b86ad3aa57404c16c600d925917f13c146db57c636bc03969345a91c04061b7",
+      "width": 1280,
+      "height": 1011
+    }
+  ]
+}

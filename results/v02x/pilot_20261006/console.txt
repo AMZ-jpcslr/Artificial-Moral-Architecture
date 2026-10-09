@@ -1,0 +1,22 @@
+Exploratory pilot; family-clustered intervals; no equivalence claim.
+Regime     Info   Budget Method          SafeTask  Harm  OverRef Checks/Episode
+persistent new         4 affect             0.570 0.168   0.131   4.000
+persistent new         4 current            0.545 0.176   0.144   3.938
+persistent new         4 history            0.562 0.158   0.144   4.000
+persistent new         4 no_check           0.461 0.238   0.214   0.000
+persistent new         4 uniform            0.576 0.152   0.114   4.000
+persistent repeat      4 affect             0.461 0.238   0.214   4.000
+persistent repeat      4 current            0.461 0.238   0.214   3.938
+persistent repeat      4 history            0.461 0.238   0.214   4.000
+persistent repeat      4 no_check           0.461 0.238   0.214   0.000
+persistent repeat      4 uniform            0.461 0.238   0.214   4.000
+shuffled   new         4 affect             0.574 0.176   0.130   4.000
+shuffled   new         4 current            0.557 0.168   0.151   3.906
+shuffled   new         4 history            0.566 0.150   0.156   4.000
+shuffled   new         4 no_check           0.459 0.230   0.231   0.000
+shuffled   new         4 uniform            0.580 0.139   0.130   4.000
+shuffled   repeat      4 affect             0.459 0.230   0.231   4.000
+shuffled   repeat      4 current            0.459 0.230   0.231   3.906
+shuffled   repeat      4 history            0.459 0.230   0.231   4.000
+shuffled   repeat      4 no_check           0.459 0.230   0.231   0.000
+shuffled   repeat      4 uniform            0.459 0.230   0.231   4.000

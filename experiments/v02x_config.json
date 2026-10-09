@@ -1,0 +1,28 @@
+{
+  "version": "0.2.x-pilot-1",
+  "steps": 8,
+  "seeds": [11, 23, 37, 53, 71, 89, 107, 131],
+  "budgets": [0, 2, 4],
+  "per_step_cap": 1,
+  "feedback_delay": 1,
+  "diagnostic_accuracy": 0.85,
+  "bootstrap_samples": 2000,
+  "bootstrap_seed": 20261006,
+  "current_thresholds": [0.15, 0.3, 0.5, 0.7],
+  "history_alphas": [0.2, 0.5, 0.8],
+  "history_weights": [0.5, 1.0, 2.0],
+  "families": [
+    {"id": "dev_storage", "split": "dev", "context": "Temporary storage maintenance", "hazard_rate": 0.5, "harm": 0.9, "uncertainty": 0.15, "fallback_rate": 0.5, "vulnerability": 0.5, "responsibility": 1.0, "reversibility": 0.1},
+    {"id": "dev_sensor", "split": "dev", "context": "Sensor-guided inspection", "hazard_rate": 0.7, "harm": 0.85, "uncertainty": 0.45, "fallback_rate": 0.7, "vulnerability": 0.7, "responsibility": 0.8, "reversibility": 0.15},
+    {"id": "dev_dispatch", "split": "dev", "context": "Dispatching a scheduled operation", "hazard_rate": 0.3, "harm": 0.95, "uncertainty": 0.55, "fallback_rate": 0.3, "vulnerability": 0.3, "responsibility": 0.6, "reversibility": 0.05},
+    {"id": "dev_release", "split": "dev", "context": "Controlled release of a new service", "hazard_rate": 0.6, "harm": 0.88, "uncertainty": 0.25, "fallback_rate": 0.6, "vulnerability": 0.6, "responsibility": 0.9, "reversibility": 0.18},
+    {"id": "eval_archive", "split": "heldout", "context": "Preservation archive migration", "hazard_rate": 0.4, "harm": 0.92, "uncertainty": 0.2, "fallback_rate": 0.4, "vulnerability": 0.4, "responsibility": 0.9, "reversibility": 0.08},
+    {"id": "eval_water", "split": "heldout", "context": "Water distribution scheduling", "hazard_rate": 0.65, "harm": 0.86, "uncertainty": 0.4, "fallback_rate": 0.65, "vulnerability": 0.8, "responsibility": 0.7, "reversibility": 0.12},
+    {"id": "eval_access", "split": "heldout", "context": "Accessibility service rollout", "hazard_rate": 0.35, "harm": 0.94, "uncertainty": 0.5, "fallback_rate": 0.35, "vulnerability": 0.9, "responsibility": 0.6, "reversibility": 0.06},
+    {"id": "eval_transport", "split": "heldout", "context": "Transport equipment maintenance", "hazard_rate": 0.55, "harm": 0.89, "uncertainty": 0.3, "fallback_rate": 0.55, "vulnerability": 0.6, "responsibility": 1.0, "reversibility": 0.17},
+    {"id": "eval_energy", "split": "heldout", "context": "Energy supply transition", "hazard_rate": 0.75, "harm": 0.84, "uncertainty": 0.1, "fallback_rate": 0.75, "vulnerability": 0.5, "responsibility": 0.8, "reversibility": 0.19},
+    {"id": "eval_lab", "split": "heldout", "context": "Laboratory sample handling", "hazard_rate": 0.25, "harm": 0.96, "uncertainty": 0.6, "fallback_rate": 0.25, "vulnerability": 0.2, "responsibility": 1.0, "reversibility": 0.02},
+    {"id": "eval_records", "split": "heldout", "context": "Public record processing", "hazard_rate": 0.45, "harm": 0.87, "uncertainty": 0.35, "fallback_rate": 0.45, "vulnerability": 0.7, "responsibility": 0.5, "reversibility": 0.14},
+    {"id": "eval_warehouse", "split": "heldout", "context": "Warehouse routing changes", "hazard_rate": 0.6, "harm": 0.91, "uncertainty": 0.25, "fallback_rate": 0.6, "vulnerability": 0.4, "responsibility": 0.9, "reversibility": 0.09}
+  ]
+}

@@ -1,6 +1,6 @@
 # Development guidance
 
-- Work with the primary agent only. Do not use sub-agents or create other tasks.
+- Sub-agents may be used when useful, as authorized by the user on 2026-10-09. Create separate user-owned tasks only when the user requests them.
 - Keep v0.1 offline, deterministic, and dependency-free at runtime.
 - Apply moral constraints before optimizing task utility; never trade a hard violation for reward.
 - Unknown or incomplete evidence must not silently become permission.

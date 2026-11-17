@@ -1,0 +1,17 @@
+{
+  "current": {
+    "threshold": 0.15,
+    "alpha": 0.5,
+    "weight": 0.0
+  },
+  "history": {
+    "threshold": 0.15,
+    "alpha": 0.2,
+    "weight": 0.5
+  },
+  "history_reset": {
+    "threshold": 0.15,
+    "alpha": 0.2,
+    "weight": 0.5
+  }
+}

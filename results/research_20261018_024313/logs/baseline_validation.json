@@ -1,0 +1,40 @@
+[
+  {
+    "label": "baseline_tests",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "seconds": 18.574642999999924
+  },
+  {
+    "label": "baseline_demo",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "examples/demo.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.15977149998070672
+  },
+  {
+    "label": "baseline_affect_demo",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "examples/affect_demo.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20295650002663024
+  }
+]

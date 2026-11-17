@@ -1,0 +1,14 @@
+{
+  "scope": "Post-run descriptive audit, not an additional acceptance criterion or independent test set",
+  "matched_certified_states": 445,
+  "observed_covered_on_matched_states": 255,
+  "bounded_covered_on_matched_states": 360,
+  "observed_matched_pooled": 0.5730337078651685,
+  "bounded_matched_pooled": 0.8089887640449438,
+  "residual_danger_by_family": {
+    "bound_18": 9
+  },
+  "residual_danger_rows": 9,
+  "residual_danger_world_states": 9,
+  "seconds": 15.675097899977118
+}

@@ -1,0 +1,22 @@
+{
+  "archive_members": 177,
+  "sha256": "1b074070f6207bae7a93f4c5ac6828ab7470ab0ee5863adcf7a79f4398a52ce8",
+  "runs": [
+    {
+      "name": "unittest",
+      "returncode": 0,
+      "seconds": 10.938190799963195
+    },
+    {
+      "name": "demo",
+      "returncode": 0,
+      "seconds": 0.11449359997641295
+    },
+    {
+      "name": "affect_demo",
+      "returncode": 0,
+      "seconds": 0.1645894999965094
+    }
+  ],
+  "all_passed": true
+}

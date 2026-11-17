@@ -1,0 +1,14 @@
+{
+  "split": "development",
+  "episode_runs": 128,
+  "decisions": 1024,
+  "family_clusters": 4,
+  "parameters": {
+    "cue_weight": 1.0,
+    "error_weight": 0.5,
+    "alpha": 0.5
+  },
+  "actual_budget_all_achieved": true,
+  "counterfactual_computation_not_charged_to_agent_queries": true,
+  "runtime_includes_local_counterfactual_instrumentation": true
+}

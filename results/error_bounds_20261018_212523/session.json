@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-18T12:25:23+00:00",
+  "started_jst": "2026-10-18T21:25:23+09:00",
+  "max_hours": 4,
+  "python": "C:\\Python314\\python.exe",
+  "version": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "original_count": 1110,
+  "original_bytes": 1990673411,
+  "constraints": [
+    "offline",
+    "no external transmission",
+    "no paid API",
+    "no install",
+    "no commit",
+    "no push",
+    "simulation only"
+  ]
+}

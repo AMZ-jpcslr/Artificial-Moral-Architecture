@@ -1,0 +1,12 @@
+{
+  "registered_utc": "2026-10-17T18:11:51.510902+00:00",
+  "purpose": "post-run correction of initial Oracle forecasts being overwritten by fallible sensor updates",
+  "changes_to_model_parameters": false,
+  "changes_to_labels": false,
+  "changes_to_primary_comparison": false,
+  "files": {
+    "C:\\Users\\yomas\\github\\Artificial Moral Architecture\\experiments\\research_20261018\\diagnostic_correction.py": "01ef9f5d1db2be78889bde2bc237457b1c3f0acd16fcf21ee20d356e2a3ff6c1",
+    "C:\\Users\\yomas\\github\\Artificial Moral Architecture\\experiments\\research_20261018\\DIAGNOSTIC_CORRECTION.md": "0343e18ebfb803c7f9445558b502e0a3f8061aa8471565979af8e7036d639d5e",
+    "results\\research_20261018_024313\\registration_v1\\freeze.json": "83d96c3873ec4839eb943c994534d6fb85af108aedb0336114eba223e7c7923a"
+  }
+}

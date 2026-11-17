@@ -1,0 +1,8 @@
+{
+  "rows": 150528,
+  "primary_rows": 27648,
+  "unique_rows": 150528,
+  "elapsed_seconds": 7.069147699978203,
+  "source_freeze_equal": true,
+  "finished_utc": "2026-10-17T23:32:01.880769+00:00"
+}

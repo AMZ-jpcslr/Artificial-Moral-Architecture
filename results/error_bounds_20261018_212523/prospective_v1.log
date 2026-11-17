@@ -1,0 +1,25 @@
+bound_01: 6144 decisions
+bound_02: 12288 decisions
+bound_03: 18432 decisions
+bound_04: 24576 decisions
+bound_05: 30720 decisions
+bound_06: 36864 decisions
+bound_07: 43008 decisions
+bound_08: 49152 decisions
+bound_09: 55296 decisions
+bound_10: 61440 decisions
+bound_11: 67584 decisions
+bound_12: 73728 decisions
+bound_13: 79872 decisions
+bound_14: 86016 decisions
+bound_15: 92160 decisions
+bound_16: 98304 decisions
+bound_17: 104448 decisions
+bound_18: 110592 decisions
+bound_19: 116736 decisions
+bound_20: 122880 decisions
+bound_21: 129024 decisions
+bound_22: 135168 decisions
+bound_23: 141312 decisions
+bound_24: 147456 decisions
+{"phase": "prospective", "decision_runs": 147456, "conditions": 32, "families": 24, "unique_world_states": 1536, "queries": 239616, "returned_records": 6448512, "virtual_decisions": 258048, "predictions": 769589, "policy_seconds": 405.58521680452395, "elapsed_seconds": 772.2538795000291, "finished_utc": "2026-10-18T12:53:35.547318+00:00", "paid_api_calls": 0, "external_actions": 0}

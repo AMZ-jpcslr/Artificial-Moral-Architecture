@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-10-18T01:06:56+00:00",
+  "completed_utc": "2026-10-18T01:43:11.586466+00:00",
+  "wall_seconds": 2175.586466,
+  "verification_reporting_seconds": 798.108731,
+  "prospective_decisions": 207360,
+  "development_decisions": 96,
+  "old_baseline_replay_decisions": 640,
+  "old_refusal_diagnostic_decisions": 132,
+  "shared_state_diagnostic_decisions": 11520,
+  "cross_runtime_replay_decisions": 960,
+  "total_recorded_decision_runs": 220708,
+  "unique_tests_passed": 281,
+  "main_experiment_seconds": 671.3349470999674,
+  "model_policy_seconds": 321.58412852248875,
+  "adoption": {
+    "guilt_event": {
+      "adopt": false,
+      "criteria_passed": 11,
+      "criteria_total": 13
+    },
+    "numeric_set": {
+      "adopt": false,
+      "criteria_passed": 12,
+      "criteria_total": 13
+    }
+  },
+  "existing_files_changed": 0,
+  "source_files_added": 17,
+  "prohibited_actions": {
+    "external_transmission": 0,
+    "paid_api_calls": 0,
+    "installations": 0,
+    "commits": 0,
+    "pushes": 0,
+    "real_world_actions": 0
+  },
+  "incomplete": [
+    "Independent human annotation and external validity",
+    "Real source authentication and reliability calibration",
+    "Natural-language evidence interpretation",
+    "Many-candidate or free-form alternative generation",
+    "Combined H1+H2 effect (intentionally not run in this one-factor study)",
+    "Default model promotion/deployment"
+  ]
+}

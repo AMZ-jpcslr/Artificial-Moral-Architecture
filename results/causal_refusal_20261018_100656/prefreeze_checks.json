@@ -1,0 +1,22 @@
+[
+  {
+    "name": "tests_prefreeze",
+    "seconds": 14.630478699982632,
+    "exit_code": 0
+  },
+  {
+    "name": "demo_prefreeze",
+    "seconds": 0.14776279998477548,
+    "exit_code": 0
+  },
+  {
+    "name": "affect_demo_prefreeze",
+    "seconds": 0.19330669997725636,
+    "exit_code": 0
+  },
+  {
+    "name": "development_v1",
+    "seconds": 1.1844818000099622,
+    "exit_code": 0
+  }
+]

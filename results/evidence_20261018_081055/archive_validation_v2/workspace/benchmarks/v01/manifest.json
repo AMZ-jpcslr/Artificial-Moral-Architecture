@@ -1,0 +1,11 @@
+{
+  "version": "v01-heldout-1",
+  "schema_version": 1,
+  "case_count": 50,
+  "purpose": "Deterministic architecture diagnostics, separate from the five development demos",
+  "authorship": "Synthetic cases, forecast profiles, and explicit ground-truth labels authored together; no independent adjudication",
+  "prediction_errors": "Includes deliberate optimistic and pessimistic prediction errors",
+  "randomness": "none",
+  "tuning": "Original MoralPolicy thresholds unchanged; no search or fitting on benchmark results",
+  "holdout_scope": "No training split or learned model; disjoint scenarios, not a blinded statistical holdout"
+}

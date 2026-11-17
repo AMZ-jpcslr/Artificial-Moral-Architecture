@@ -1,0 +1,6 @@
+variant,harmful_action_added,harmful_action_removed,safe_task_success_added,safe_task_success_removed,supported_safe_success_added,supported_safe_success_removed,unjustified_refusal_added,unjustified_refusal_removed,unsupported_execution_added,unsupported_execution_removed,realized_harm_added,realized_harm_removed,unavailable_action_added,unavailable_action_removed
+guilt_event,1,0,9,0,9,0,0,10,0,0,6,0,0,0
+history_verified,148,8,236,13,2,45,0,39,426,0,110,23,0,0
+numeric_set,3,0,151,0,151,0,0,154,0,0,34,0,0,0
+rule,304,8,765,13,144,46,0,185,976,0,362,23,10,0
+rule_verified,148,8,242,13,8,46,0,45,427,0,114,23,0,0

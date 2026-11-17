@@ -1,0 +1,17 @@
+{
+  "scanned_rows": 150528,
+  "refusal_decisions_reconstructed": 44,
+  "replay_mismatches": [],
+  "publicly_permitted_action_paths": 44,
+  "refusal_path_reasons": {
+    "uncertainty": 30,
+    "harm_review": 14
+  },
+  "dangerous_alternatives": 74,
+  "dangerous_alternatives_with_false_consent": 51,
+  "dangerous_alternatives_with_hidden_harm": 44,
+  "dangerous_alternatives_systematic_false_profile": 52,
+  "elapsed_seconds": 32.7328911999939,
+  "finished_utc": "2026-10-17T23:43:30.972146+00:00",
+  "note": "Descriptive failure paths, overlapping causes; reconstructed decisions are not new experimental observations."
+}

@@ -1,0 +1,24 @@
+{
+  "archive_members": 135,
+  "archive_sha256": "c36e29ba53e62c036d911d4901bafedce2a33b44f2590cf0f024eb2f70dd98b5",
+  "crc_ok": true,
+  "runs": [
+    {
+      "label": "tests",
+      "exit_code": 1,
+      "seconds": 8.425100399996154
+    },
+    {
+      "label": "demo",
+      "exit_code": 0,
+      "seconds": 0.08807110000634566
+    },
+    {
+      "label": "affect_demo",
+      "exit_code": 0,
+      "seconds": 0.12435210001422092
+    }
+  ],
+  "elapsed_seconds": 8.790442200028338,
+  "finished_utc": "2026-10-17T23:48:24.051006+00:00"
+}

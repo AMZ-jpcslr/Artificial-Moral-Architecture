@@ -1,0 +1,11 @@
+{
+  "reason": "Escape spaces in Markdown file/image targets; no behavioral or evaluation changes",
+  "archived_source_differences": [
+    "experiments/causal_refusal_20261018/write_report.py"
+  ],
+  "frozen_files_unchanged": 76,
+  "crc_ok": true,
+  "report_links_checked": 20,
+  "source_snapshot_v2_sha256": "72a3a8370a7d8e1107d26f3932e6e7f600e1546620465ff43a8ac3f03c664fee",
+  "completed_utc": "2026-10-18T01:45:46.645290+00:00"
+}

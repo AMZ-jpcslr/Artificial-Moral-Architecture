@@ -1,0 +1,33 @@
+{
+  "version":"error-bound-v1",
+  "seeds":[3301,3307,3313,3319,3323,3329,3331,3343],
+  "replicates":[0,1,2],"steps":8,"bootstrap":2000,"bootstrap_seed":10037,
+  "parameters":{"cue_weight":0.5,"error_weight":0.5,"alpha":0.5},
+  "primary":{"accuracy":0.85,"budget":2,"representation":"canonical","allocation":"fixed","equal_compute":false},
+  "families":[
+    {"id":"bound_01","profile":"covered_singleton","mechanism":"covered"},
+    {"id":"bound_02","profile":"covered_opposite_bias","mechanism":"covered"},
+    {"id":"bound_03","profile":"covered_same_direction_bias","mechanism":"covered"},
+    {"id":"bound_04","profile":"covered_low_reversibility","mechanism":"covered"},
+    {"id":"bound_05","profile":"hidden_harm_no_bound","mechanism":"unbounded_false_observation"},
+    {"id":"bound_06","profile":"large_calibrated_bias","mechanism":"wide_valid_bound"},
+    {"id":"bound_07","profile":"harm_threshold_crossing","mechanism":"crosses_constraint"},
+    {"id":"bound_08","profile":"reversibility_threshold_crossing","mechanism":"crosses_constraint"},
+    {"id":"bound_09","profile":"known_danger","mechanism":"danger_control"},
+    {"id":"bound_10","profile":"missing_certificate","mechanism":"missing_evidence"},
+    {"id":"bound_11","profile":"expired_certificate","mechanism":"invalid_validity"},
+    {"id":"bound_12","profile":"context_outside","mechanism":"outside_calibration"},
+    {"id":"bound_13","profile":"partial_calibration","mechanism":"outside_calibration"},
+    {"id":"bound_14","profile":"underclaimed_bound","mechanism":"invalid_arithmetic"},
+    {"id":"bound_15","profile":"untraceable_reference","mechanism":"unverified_provenance"},
+    {"id":"bound_16","profile":"duplicate_binding","mechanism":"ambiguous_binding"},
+    {"id":"bound_17","profile":"declared_correlated_sources","mechanism":"declared_dependence"},
+    {"id":"bound_18","profile":"covert_correlated_forgery","mechanism":"hidden_contract_violation"},
+    {"id":"bound_19","profile":"consent_conflict","mechanism":"consent"},
+    {"id":"bound_20","profile":"consent_denied","mechanism":"consent"},
+    {"id":"bound_21","profile":"availability_conflict","mechanism":"availability"},
+    {"id":"bound_22","profile":"disputed_authority","mechanism":"ambiguous"},
+    {"id":"bound_23","profile":"disjoint_intervals","mechanism":"inconsistent_intervals"},
+    {"id":"bound_24","profile":"stale_acquisition","mechanism":"invalid_validity"}
+  ]
+}

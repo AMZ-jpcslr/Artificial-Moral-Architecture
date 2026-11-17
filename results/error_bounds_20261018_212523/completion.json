@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-18T12:25:23+00:00",
+  "completed_utc": "2026-10-18T13:12:02.303344+00:00",
+  "wall_seconds": 2799.303344,
+  "verification_reporting_seconds": 1067.957347,
+  "decision_runs": {
+    "prospective": 147456,
+    "development": 48,
+    "baseline_replay": 480,
+    "shared_state": 9216,
+    "old_counterexample_regression": 6,
+    "cross_runtime": 768
+  },
+  "total_recorded_decision_runs": 157974,
+  "unit_tests_passed": 328,
+  "new_tests": 47,
+  "main_experiment_seconds": 772.2538795000291,
+  "model_policy_seconds": 405.58521680452395,
+  "new_source_files": 20,
+  "existing_files_changed": 0,
+  "adopt": false,
+  "criteria_groups_passed": 9,
+  "criteria_groups_total": 12,
+  "prohibited_actions": {
+    "external_transmission": 0,
+    "paid_api_calls": 0,
+    "installations": 0,
+    "commits": 0,
+    "pushes": 0,
+    "real_world_actions": 0
+  },
+  "incomplete": [
+    "Independent author and human annotation",
+    "Actual instrument specifications and authenticated calibration sources",
+    "Verification of hidden lineage, Lipschitz, noise and drift assumptions",
+    "Primary-action evidence gate",
+    "Natural-language evidence understanding",
+    "Deployment or default-model promotion"
+  ]
+}

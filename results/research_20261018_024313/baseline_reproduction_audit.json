@@ -1,0 +1,139 @@
+[
+  {
+    "phase": "v01",
+    "file": "summary.csv",
+    "rows_old": 9,
+    "rows_new": 9,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v01",
+    "file": "categories.csv",
+    "rows_old": 90,
+    "rows_new": 90,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v01",
+    "file": "results.csv",
+    "rows_old": 450,
+    "rows_new": 450,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v015",
+    "file": "comparison.csv",
+    "rows_old": 30,
+    "rows_new": 30,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v015",
+    "file": "decisions.csv",
+    "rows_old": 1500,
+    "rows_new": 1500,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v015",
+    "file": "predictions.csv",
+    "rows_old": 2250,
+    "rows_new": 2250,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v015",
+    "file": "noise_sensitivity.csv",
+    "rows_old": 24,
+    "rows_new": 24,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v02",
+    "file": "comparison.csv",
+    "rows_old": 110,
+    "rows_new": 110,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v02",
+    "file": "decisions.csv",
+    "rows_old": 5500,
+    "rows_new": 5500,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v02",
+    "file": "episodes.csv",
+    "rows_old": 210,
+    "rows_new": 210,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v02",
+    "file": "regressions.csv",
+    "rows_old": 770,
+    "rows_new": 770,
+    "equal_except_runtime": true,
+    "excluded": []
+  },
+  {
+    "phase": "v02x",
+    "file": "summary.csv",
+    "rows_old": 96,
+    "rows_new": 96,
+    "equal_except_runtime": true,
+    "excluded": [
+      "runtime_seconds"
+    ]
+  },
+  {
+    "phase": "v02x",
+    "file": "episodes.csv",
+    "rows_old": 6144,
+    "rows_new": 6144,
+    "equal_except_runtime": true,
+    "excluded": [
+      "runtime_seconds"
+    ]
+  },
+  {
+    "phase": "concern",
+    "file": "summary.csv",
+    "rows_old": 192,
+    "rows_new": 192,
+    "equal_except_runtime": true,
+    "excluded": [
+      "runtime_seconds",
+      "runtime_seconds_defined_episodes"
+    ]
+  },
+  {
+    "phase": "concern",
+    "file": "episodes.csv",
+    "rows_old": 7680,
+    "rows_new": 7680,
+    "equal_except_runtime": true,
+    "excluded": [
+      "runtime_seconds"
+    ]
+  },
+  {
+    "phase": "concern",
+    "file": "source_error_effects.csv",
+    "rows_old": 11685,
+    "rows_new": 11685,
+    "equal_except_runtime": true,
+    "excluded": []
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "trace_rows": 140544,
+  "independent_scoring_mismatches": [],
+  "state_only_mismatches": [],
+  "state_only_paired_decisions": 2304,
+  "note": "Arithmetic and input-boundary audit; external validity of synthetic annotations is not established."
+}

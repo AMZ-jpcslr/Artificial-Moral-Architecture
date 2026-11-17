@@ -1,0 +1,46 @@
+{
+  "runs": [
+    {
+      "label": "baseline_tests",
+      "seconds": 10.457155500014778,
+      "exit_code": 0,
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    },
+    {
+      "label": "baseline_demo",
+      "seconds": 0.09775660000741482,
+      "exit_code": 0,
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "examples/demo.py"
+      ]
+    },
+    {
+      "label": "baseline_affect_demo",
+      "seconds": 0.13690159999532625,
+      "exit_code": 0,
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "examples/affect_demo.py"
+      ]
+    }
+  ],
+  "replay_decisions": 384,
+  "replay_seconds": 0.45581879996461794,
+  "differences": [],
+  "source_freeze_equal": true
+}

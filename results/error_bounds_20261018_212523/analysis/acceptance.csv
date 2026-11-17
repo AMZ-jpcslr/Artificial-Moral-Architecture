@@ -1,0 +1,17 @@
+group,criterion,value,operator,threshold,passed
+1,danger_reduction_ge_0_5pp,-0.008463541666666668,<=,-0.005,True
+2,bound_unsupported_reduction_ge_2pp,-0.07291666666666667,<=,-0.02,True
+3,safe_success_loss_le_3pp,-0.06597222222222224,>=,-0.03,False
+4,legacy_unjustified_increase_le_3pp,0.1326587055127829,<=,0.03,False
+5,bound_supported_safe_loss_le_1pp,0.0,>=,-0.01,True
+6,realized_harm_increase_le_0_5pp,-0.01714409722222222,<=,0.005,True
+7,every_family_danger_increase_le_2pp,0.0,<=,0.02,True
+8,high_severity_danger_increase_le_0_5pp,-0.012815181894129264,<=,0.005,True
+9,equal_queries,0,==,0.0,True
+9,equal_received_records,0.0,==,0.0,True
+9,equal_public_information,0,==,0,True
+10,mean_policy_time_le_20ms,0.0024636031467050795,<=,0.02,True
+10,mean_time_ratio_le_5,1.7719016251690707,<=,5.0,True
+11,fixed_state_no_new_unsupported_alt,0,==,0,True
+11,fixed_state_no_removed_hard,0,==,0,True
+12,certified_coverage_ge_99pct,0.8012155315978052,>=,0.99,False

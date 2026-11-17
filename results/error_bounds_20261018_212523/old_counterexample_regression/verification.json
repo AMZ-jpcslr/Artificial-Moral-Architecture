@@ -1,0 +1,8 @@
+{
+  "decisions": 6,
+  "explored_cases": 3,
+  "numeric_replay_mismatches": [],
+  "bound_alternative_selected": 0,
+  "seconds": 9.057890399999451,
+  "scope": "post-run regression only; excluded from prospective estimates and acceptance"
+}

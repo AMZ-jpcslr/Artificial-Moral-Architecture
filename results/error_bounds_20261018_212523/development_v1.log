@@ -1,0 +1,2 @@
+manual_development: 48 decisions
+{"phase": "development", "decision_runs": 48, "conditions": 4, "families": 1, "unique_world_states": 6, "queries": 96, "returned_records": 1504, "virtual_decisions": 0, "predictions": 119, "policy_seconds": 0.02388129965402186, "elapsed_seconds": 1.0258133999886923, "finished_utc": "2026-10-18T12:40:31.821290+00:00", "paid_api_calls": 0, "external_actions": 0}

@@ -1,0 +1,13 @@
+{
+  "decision_runs": 18432,
+  "episode_runs": 2304,
+  "elapsed_seconds": 44.08238680000068,
+  "queries": 9216,
+  "audit_decisions": 16269,
+  "virtual_decisions": 32256,
+  "diagnostic_prediction_preserved_all_rows": true,
+  "original_frozen_sources_unchanged": true,
+  "operating_model_comparison_unchanged": true,
+  "not_new_unseen_data": true,
+  "finished_utc": "2026-10-17T18:12:35.607369+00:00"
+}

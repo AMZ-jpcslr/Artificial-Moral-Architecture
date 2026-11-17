@@ -1,0 +1,11 @@
+verified 20000
+verified 40000
+verified 60000
+verified 80000
+verified 100000
+verified 120000
+verified 140000
+verified 160000
+verified 180000
+verified 200000
+{"rows_checked": 207360, "score_or_public_audit_mismatches": [], "fixed_information_groups": 30720, "fixed_information_mismatches": [], "original_files_checked": 790, "original_files_changed": [], "source_freeze_equal": true, "elapsed_seconds": 171.1116761000012, "finished_utc": "2026-10-18T01:33:12.414671+00:00"}

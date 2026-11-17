@@ -1,0 +1,32 @@
+# Preserve exact bytes of frozen research sources and result manifests.
+* -text
+
+# Large saved research artifacts are downloaded automatically by Git LFS.
+results/causal_refusal_20261018_100656/archive_validation/workspace/results/v02/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/causal_refusal_20261018_100656/prospective_v1/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/causal_refusal_20261018_100656/prospective_v1/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/causal_refusal_20261018_100656/shared_state_diagnostic/traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/causal_refusal_20261018_100656/verification/all_primary_traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/causal_refusal_20261018_100656/verification/current_primary_traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/concern_information/heldout_v1/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/concern_information/heldout_v1/summary.json filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/archive_validation/workspace/results/v02/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/prospective_v1/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/prospective_v1/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/shared_state_diagnostic/traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/verification/numeric_primary_traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/error_bounds_20261018_212523/verification/primary_traces.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/evidence_20261018_081055/archive_validation_v2/workspace/results/v02/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/evidence_20261018_081055/prospective_v1/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/evidence_20261018_081055/prospective_v1/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/concern/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/concern/summary.json filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/v015/results.json filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/v02/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/v02/results.json filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/baseline/v02x/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/diagnostic_v11/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/frozen_workspace.zip filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/frozen_workspace_before_refusal_audit.zip filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/prospective_v1/decisions.csv filter=lfs diff=lfs merge=lfs -text
+results/research_20261018_024313/prospective_v1/decisions.jsonl.gz filter=lfs diff=lfs merge=lfs -text

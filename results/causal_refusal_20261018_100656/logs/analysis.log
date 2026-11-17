@@ -1,0 +1,1 @@
+{"metadata": {"rows": 207360, "primary_rows": 23040, "conditions": 54, "unique_rows": 207360, "adverse_transitions": 1916, "elapsed_seconds": 12.83882080001058, "source_freeze_equal": true, "finished_utc": "2026-10-18T01:34:36.306472+00:00"}, "acceptance": [["guilt_event", false], ["numeric_set", false]]}

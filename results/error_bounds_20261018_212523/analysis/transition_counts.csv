@@ -1,0 +1,5 @@
+left,right,harmful_action_added,harmful_action_removed,safe_task_success_added,safe_task_success_removed,supported_safe_success_added,supported_safe_success_removed,bound_supported_safe_success_added,bound_supported_safe_success_removed,unjustified_refusal_added,unjustified_refusal_removed,bound_unjustified_refusal_added,bound_unjustified_refusal_removed,unsupported_execution_added,unsupported_execution_removed,bound_unsupported_execution_added,bound_unsupported_execution_removed,realized_harm_added,realized_harm_removed,unavailable_action_added,unavailable_action_removed
+bound_verified,numeric_set,0,39,0,297,0,297,0,0,336,0,0,0,0,0,0,336,0,79,0,0
+bound_verified,current,9,0,41,0,41,0,41,0,0,50,0,50,0,0,0,0,14,0,0,0
+numeric_set,current,48,0,338,0,338,0,41,0,0,386,0,50,0,0,336,0,93,0,0,0
+rule_bound_verified,bound_verified,48,1,146,3,0,4,0,4,0,24,0,0,195,0,195,0,36,2,0,0

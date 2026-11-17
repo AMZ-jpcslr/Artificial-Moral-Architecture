@@ -1,0 +1,50 @@
+[
+  {
+    "name": "full_tests_v2",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "seconds": 9.124900299997535,
+    "exit_code": 0
+  },
+  {
+    "name": "development_v2",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "experiments/run_action_evidence.py",
+      "--phase",
+      "development",
+      "--output",
+      "results\\evidence_20261018_081055\\development_v2"
+    ],
+    "seconds": 1.2857196000404656,
+    "exit_code": 0
+  },
+  {
+    "name": "freeze",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "experiments/run_action_evidence.py",
+      "--phase",
+      "freeze",
+      "--development",
+      "results\\evidence_20261018_081055\\development_v2",
+      "--output",
+      "results\\evidence_20261018_081055\\registration_v1"
+    ],
+    "seconds": 0.14109190000453964,
+    "exit_code": 0
+  }
+]

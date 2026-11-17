@@ -1,0 +1,13 @@
+variant,action,n,danger,unsupported,bound_unsupported,realized_harm
+bound_verified,primary,2163,614,67,67,433
+bound_verified,alternative,57,9,0,0,15
+bound_verified,,2388,0,0,0,0
+current,primary,2163,614,67,67,433
+current,alternative,7,0,0,0,1
+current,,2438,0,0,0,0
+numeric_set,primary,2163,614,67,67,433
+numeric_set,alternative,393,48,0,336,94
+numeric_set,,2052,0,0,0,0
+rule_bound_verified,primary,2358,662,262,262,469
+rule_bound_verified,alternative,52,8,0,0,13
+rule_bound_verified,,2198,0,0,0,0

@@ -1,0 +1,13 @@
+variant,condition,n,matches,agreement
+bound_verified,paraphrase_ja,4608,4608,1.0
+bound_verified,paraphrase_en,4608,4608,1.0
+bound_verified,equal_compute,4608,4608,1.0
+current,paraphrase_ja,4608,4608,1.0
+current,paraphrase_en,4608,4608,1.0
+current,equal_compute,4608,4608,1.0
+numeric_set,paraphrase_ja,4608,4608,1.0
+numeric_set,paraphrase_en,4608,4608,1.0
+numeric_set,equal_compute,4608,4608,1.0
+rule_bound_verified,paraphrase_ja,4608,4608,1.0
+rule_bound_verified,paraphrase_en,4608,4608,1.0
+rule_bound_verified,equal_compute,4608,4608,1.0

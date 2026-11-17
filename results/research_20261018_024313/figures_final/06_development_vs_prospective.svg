@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="858.96pt" height="390.7584pt" viewBox="0 0 858.96 390.7584" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-18T03:15:21.475414</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 390.7584 
+L 858.96 390.7584 
+L 858.96 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.998711 297.656 
+L 280.08 297.656 
+L 280.08 74.984 
+L 42.998711 74.984 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.775133 297.656 
+L 130.252968 297.656 
+L 130.252968 119.5184 
+L 53.775133 119.5184 
+z
+" clip-path="url(#pb4fb6c2ea5)" style="fill: #64748b"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 192.825743 297.656 
+L 269.303578 297.656 
+L 269.303578 170.158385 
+L 192.825743 170.158385 
+z
+" clip-path="url(#pb4fb6c2ea5)" style="fill: #ea580c"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0a98bd14aa" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="92.014051" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(69.233582 315.954828)">既知4系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(77.014051 330.954828)">探索用</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="231.06466" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(205.503723 315.954828)">新規12系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(201.06466 330.954828)">固定後の評価</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="mca07ff3f07" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="302.055414" transform="rotate(-0 35.998711 302.055414)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="262.02848" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="266.427894" transform="rotate(-0 35.998711 266.427894)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="226.40096" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="230.800374" transform="rotate(-0 35.998711 230.800374)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="190.77344" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="195.172854" transform="rotate(-0 35.998711 195.172854)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="155.14592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="159.545334" transform="rotate(-0 35.998711 159.545334)">20</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="119.5184" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="123.917814" transform="rotate(-0 35.998711 123.917814)">25</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="42.998711" y="83.89088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="35.998711" y="88.290294" transform="rotate(-0 35.998711 88.290294)">30</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 11px; font-family: 'Yu Gothic'; text-anchor: middle" x="19.12543" y="186.32" transform="rotate(-90 19.12543 186.32)">H1＋H2 − 元モデル（pt）</text>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 231.06466 209.927356 
+L 231.06466 128.693311 
+" clip-path="url(#pb4fb6c2ea5)" style="fill: none; stroke: #111827; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_10">
+    <defs>
+     <path id="m9940b50a99" d="M 5 0 
+L -5 -0 
+" style="stroke: #111827"/>
+    </defs>
+    <g clip-path="url(#pb4fb6c2ea5)">
+     <use xlink:href="#m9940b50a99" x="231.06466" y="209.927356" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <g clip-path="url(#pb4fb6c2ea5)">
+     <use xlink:href="#m9940b50a99" x="231.06466" y="128.693311" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_12">
+    <path d="M 42.998711 297.656 
+L 280.08 297.656 
+" clip-path="url(#pb4fb6c2ea5)" style="fill: none; stroke: #374151; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 42.998711 297.656 
+L 42.998711 74.984 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 42.998711 297.656 
+L 280.08 297.656 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="92.014051" y="114.317228" transform="rotate(-0 92.014051 114.317228)">+25.00</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="231.06466" y="164.957213" transform="rotate(-0 231.06466 164.957213)">+17.89</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13px; font-family: 'Yu Gothic'; text-anchor: middle" x="161.539355" y="68.984" transform="rotate(-0 161.539355 68.984)">安全なタスク達成率（高いほど良い）</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 328.838711 297.656 
+L 565.92 297.656 
+L 565.92 74.984 
+L 328.838711 74.984 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 339.615133 131.710517 
+L 416.092968 131.710517 
+L 416.092968 199.324789 
+L 339.615133 199.324789 
+z
+" clip-path="url(#pa5c213ef18)" style="fill: #64748b"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 478.665743 131.710517 
+L 555.143578 131.710517 
+L 555.143578 192.568541 
+L 478.665743 192.568541 
+z
+" clip-path="url(#pa5c213ef18)" style="fill: #ea580c"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="377.854051" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(355.073582 315.954828)">既知4系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(362.854051 330.954828)">探索用</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="516.90466" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(491.343723 315.954828)">新規12系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(486.90466 330.954828)">固定後の評価</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="328.838711" y="261.529919" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="321.838711" y="265.929333" transform="rotate(-0 321.838711 265.929333)">-6</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="328.838711" y="218.256785" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="321.838711" y="222.656199" transform="rotate(-0 321.838711 222.656199)">-4</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="328.838711" y="174.983651" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="321.838711" y="179.383065" transform="rotate(-0 321.838711 179.383065)">-2</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="328.838711" y="131.710517" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="321.838711" y="136.109932" transform="rotate(-0 321.838711 136.109932)">0</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="328.838711" y="88.437384" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="321.838711" y="92.836798" transform="rotate(-0 321.838711 92.836798)">2</text>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 11px; font-family: 'Yu Gothic'; text-anchor: middle" x="306.176367" y="186.32" transform="rotate(-90 306.176367 186.32)">H1＋H2 − 元モデル（pt）</text>
+    </g>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 516.90466 260.544 
+L 516.90466 112.096 
+" clip-path="url(#pa5c213ef18)" style="fill: none; stroke: #111827; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_20">
+    <g clip-path="url(#pa5c213ef18)">
+     <use xlink:href="#m9940b50a99" x="516.90466" y="260.544" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_21">
+    <g clip-path="url(#pa5c213ef18)">
+     <use xlink:href="#m9940b50a99" x="516.90466" y="112.096" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <path d="M 328.838711 131.710517 
+L 565.92 131.710517 
+" clip-path="url(#pa5c213ef18)" style="fill: none; stroke: #374151; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 328.838711 297.656 
+L 328.838711 74.984 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 328.838711 297.656 
+L 565.92 297.656 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="377.854051" y="212.123617" transform="rotate(-0 377.854051 212.123617)">-3.12</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="516.90466" y="205.367369" transform="rotate(-0 516.90466 205.367369)">-2.81</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 13px; font-family: 'Yu Gothic'; text-anchor: middle" x="447.379355" y="68.984" transform="rotate(-0 447.379355 68.984)">危険選択率（低いほど良い）</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 614.678711 297.656 
+L 851.76 297.656 
+L 851.76 74.984 
+L 614.678711 74.984 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 625.455133 74.984 
+L 701.932968 74.984 
+L 701.932968 208.459915 
+L 625.455133 208.459915 
+z
+" clip-path="url(#p05a045b991)" style="fill: #64748b"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 764.505743 74.984 
+L 840.983578 74.984 
+L 840.983578 225.926278 
+L 764.505743 225.926278 
+z
+" clip-path="url(#p05a045b991)" style="fill: #ea580c"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_5">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="663.694051" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(640.913582 315.954828)">既知4系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(648.694051 330.954828)">探索用</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m0a98bd14aa" x="802.74466" y="297.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(777.183723 315.954828)">新規12系統</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic'" transform="translate(772.74466 330.954828)">固定後の評価</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_13">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="288.545464" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="292.944878" transform="rotate(-0 607.678711 292.944878)">-35</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="258.036683" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="262.436097" transform="rotate(-0 607.678711 262.436097)">-30</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="227.527903" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="231.927317" transform="rotate(-0 607.678711 231.927317)">-25</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="197.019122" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="201.418536" transform="rotate(-0 607.678711 201.418536)">-20</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="166.510342" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="170.909756" transform="rotate(-0 607.678711 170.909756)">-15</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="136.001561" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="140.400975" transform="rotate(-0 607.678711 140.400975)">-10</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="105.492781" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="109.892195" transform="rotate(-0 607.678711 109.892195)">-5</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#mca07ff3f07" x="614.678711" y="74.984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="607.678711" y="79.383414" transform="rotate(-0 607.678711 79.383414)">0</text>
+     </g>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 11px; font-family: 'Yu Gothic'; text-anchor: middle" x="586.45543" y="186.32" transform="rotate(-90 586.45543 186.32)">H1＋H2 − 元モデル（pt）</text>
+    </g>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 802.74466 253.1216 
+L 802.74466 198.497906 
+" clip-path="url(#p05a045b991)" style="fill: none; stroke: #111827; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_33">
+    <g clip-path="url(#p05a045b991)">
+     <use xlink:href="#m9940b50a99" x="802.74466" y="253.1216" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_34">
+    <g clip-path="url(#p05a045b991)">
+     <use xlink:href="#m9940b50a99" x="802.74466" y="198.497906" style="fill: #111827; stroke: #111827"/>
+    </g>
+   </g>
+   <g id="line2d_35">
+    <path d="M 614.678711 74.984 
+L 851.76 74.984 
+" clip-path="url(#p05a045b991)" style="fill: none; stroke: #374151; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 614.678711 297.656 
+L 614.678711 74.984 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 614.678711 297.656 
+L 851.76 297.656 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="663.694051" y="221.258743" transform="rotate(-0 663.694051 221.258743)">-21.88</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="802.74466" y="238.725106" transform="rotate(-0 802.74466 238.725106)">-24.74</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 13px; font-family: 'Yu Gothic'; text-anchor: middle" x="733.219355" y="68.984" transform="rotate(-0 733.219355 68.984)">過剰拒否率（低いほど良い）</text>
+   </g>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 17px; font-family: 'Yu Gothic'; text-anchor: middle" x="430.56" y="22.158008" transform="rotate(-0 430.56 22.158008)">探索で得た改善が、新規構造でも維持されるか</text>
+  </g>
+  <g id="text_40">
+   <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start; fill: #4b5563" x="7.2" y="382.125431" transform="rotate(-0 7.2 382.125431)">探索と評価は異なる系統集合。評価の区間は系統単位bootstrap。旧留保ケースを新規未見データとして再利用していない。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb4fb6c2ea5">
+   <rect x="42.998711" y="74.984" width="237.081289" height="222.672"/>
+  </clipPath>
+  <clipPath id="pa5c213ef18">
+   <rect x="328.838711" y="74.984" width="237.081289" height="222.672"/>
+  </clipPath>
+  <clipPath id="p05a045b991">
+   <rect x="614.678711" y="74.984" width="237.081289" height="222.672"/>
+  </clipPath>
+ </defs>
+</svg>

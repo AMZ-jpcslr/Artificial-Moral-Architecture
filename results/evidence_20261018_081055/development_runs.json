@@ -1,0 +1,73 @@
+[
+  {
+    "name": "targeted_tests",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_action_evidence.py",
+      "-v"
+    ],
+    "seconds": 0.23123689997009933,
+    "exit_code": 0
+  },
+  {
+    "name": "full_tests",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "seconds": 9.796310500008985,
+    "exit_code": 0
+  },
+  {
+    "name": "demo",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "examples/demo.py"
+    ],
+    "seconds": 0.08585049997782335,
+    "exit_code": 0
+  },
+  {
+    "name": "affect_demo",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "examples/affect_demo.py"
+    ],
+    "seconds": 0.12686180003220215,
+    "exit_code": 0
+  },
+  {
+    "name": "development",
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "experiments/run_action_evidence.py",
+      "--phase",
+      "development",
+      "--output",
+      "results\\evidence_20261018_081055\\development_v1"
+    ],
+    "seconds": 1.3653516999911517,
+    "exit_code": 0
+  }
+]

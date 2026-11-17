@@ -1,0 +1,10 @@
+family,seed,replicate,step,bad_consents,bad_events,public_contract,certified_coverage_failure
+bound_18,3301,1,2,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3301,1,4,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3307,1,6,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3313,0,4,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3313,0,6,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3319,0,2,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3319,0,4,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3323,0,6,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True
+bound_18,3343,0,4,[],"[{""event"": ""transport"", ""subject"": ""third_party"", ""harm"": 0.72, ""reversibility"": 0.85}]",permitted,True

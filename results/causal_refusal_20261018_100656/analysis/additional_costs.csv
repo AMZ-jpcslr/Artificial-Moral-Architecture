@@ -1,0 +1,7 @@
+variant,paired_review_checks_mean,numeric_domain_pairs_mean,external_api_calls,money_spent,currency,hardware_electricity_cost
+current,0,0,0,0,JPY,not measured
+guilt_event,25,0,0,0,JPY,not measured
+history_verified,0,0,0,0,JPY,not measured
+numeric_set,0,1.178125,0,0,JPY,not measured
+rule,0,0,0,0,JPY,not measured
+rule_verified,0,0,0,0,JPY,not measured

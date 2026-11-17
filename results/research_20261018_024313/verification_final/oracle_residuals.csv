@@ -1,0 +1,9 @@
+variant,family,danger_count,moderate_irreversible_threshold_gap
+both,prospective_03,36,36
+both,prospective_06,30,30
+combined,prospective_03,36,36
+combined,prospective_06,33,33
+no_affect,prospective_03,66,66
+no_affect,prospective_06,132,132
+rule,prospective_03,66,66
+rule,prospective_06,132,132

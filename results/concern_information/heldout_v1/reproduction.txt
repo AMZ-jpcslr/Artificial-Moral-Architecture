@@ -1,0 +1,8 @@
+Executed:
+python experiments/run_concern_information.py --phase evaluate --freeze results/concern_information/registration_v1/freeze.json --output results/concern_information/heldout_v1
+
+Repeat with a NEW output directory:
+python experiments/run_concern_information.py --phase evaluate --freeze results/concern_information/registration_v1/freeze.json --output results/concern_information/my_reproduction
+
+Post-evaluation audit:
+python experiments/summarize_concern_information.py results/concern_information/my_reproduction

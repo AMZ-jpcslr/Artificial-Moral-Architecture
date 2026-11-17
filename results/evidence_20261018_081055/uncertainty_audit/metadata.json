@@ -1,0 +1,19 @@
+{
+  "refusals": 30,
+  "all_unknown_axes_reversibility": false,
+  "all_affected_events_harm_below_point4": false,
+  "unresolved_slots": [
+    {
+      "axis": "harm",
+      "status": "conflicting",
+      "n": 3
+    },
+    {
+      "axis": "reversibility",
+      "status": "conflicting",
+      "n": 29
+    }
+  ],
+  "elapsed_seconds": 34.512649600044824,
+  "note": "Robust public audit can authorize despite uncertain reversibility when every possible value is safe. Strict dossier gate requires singleton values and stops."
+}

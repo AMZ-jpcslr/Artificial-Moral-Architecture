@@ -1,0 +1,18 @@
+{
+  "local_links_checked": 42,
+  "missing_existing_links": [],
+  "all_comparison_rows": 519,
+  "rows_by_phase": {
+    "v01": 9,
+    "v015": 30,
+    "v02": 110,
+    "v02x": 96,
+    "concern": 192,
+    "development": 13,
+    "prospective": 61,
+    "diagnostic_v11": 8
+  },
+  "mechanism_table_present": true,
+  "six_final_figures": 6,
+  "placeholder_found": false
+}

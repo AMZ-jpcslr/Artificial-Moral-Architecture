@@ -1,0 +1,16 @@
+{
+  "original_files_checked": 790,
+  "original_files_changed": [],
+  "source_freeze_equal": true,
+  "git_unchanged": {
+    "git_diff": true,
+    "git_staged": true,
+    "git_head": true
+  },
+  "status_added": [
+    "?? experiments/causal_refusal_20261018/",
+    "?? experiments/run_causal_refusal.py",
+    "?? tests/test_causal_refusal.py"
+  ],
+  "status_removed": []
+}

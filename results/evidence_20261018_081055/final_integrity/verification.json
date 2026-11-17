@@ -1,0 +1,16 @@
+{
+  "original_files_checked": 369,
+  "original_files_changed": [],
+  "source_freeze_equal": true,
+  "git_unchanged": {
+    "git_head": true,
+    "git_diff": true,
+    "git_staged": true
+  },
+  "status_added": [
+    "?? experiments/action_evidence_20261018/",
+    "?? experiments/run_action_evidence.py",
+    "?? tests/test_action_evidence.py"
+  ],
+  "status_removed": []
+}

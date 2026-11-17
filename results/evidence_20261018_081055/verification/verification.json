@@ -1,0 +1,11 @@
+{
+  "rows_checked": 150528,
+  "score_or_public_audit_mismatches": [],
+  "fixed_allocation_paired_worlds": 3072,
+  "fixed_allocation_information_mismatches": [],
+  "original_files_checked": 369,
+  "original_files_changed": [],
+  "source_freeze_equal": true,
+  "elapsed_seconds": 41.22832150000613,
+  "finished_utc": "2026-10-17T23:32:55.783621+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\yomas\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "matplotlib": "3.11.1",
+  "font": "C:\\Windows\\Fonts\\YuGothR.ttc",
+  "source": "saved CSV and acceptance JSON only",
+  "files": [
+    "01_primary_comparison.png",
+    "01_primary_comparison.svg",
+    "02_family_differences.png",
+    "02_family_differences.svg",
+    "03_prediction_diagnostics.png",
+    "03_prediction_diagnostics.svg",
+    "04_component_ablation.png",
+    "04_component_ablation.svg",
+    "05_computation_cost.png",
+    "05_computation_cost.svg",
+    "06_development_vs_prospective.png",
+    "06_development_vs_prospective.svg"
+  ]
+}

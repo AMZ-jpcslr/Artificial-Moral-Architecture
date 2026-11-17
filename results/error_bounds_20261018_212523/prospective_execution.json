@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "experiments/run_error_bounds.py",
+    "--phase",
+    "prospective",
+    "--freeze",
+    "results\\error_bounds_20261018_212523\\registration_v1\\freeze.json",
+    "--output",
+    "results\\error_bounds_20261018_212523\\prospective_v1"
+  ],
+  "started_utc": "2026-10-18T12:40:43.088521+00:00",
+  "finished_utc": "2026-10-18T12:53:35.659510+00:00",
+  "returncode": 0,
+  "seconds": 772.5710298999911
+}

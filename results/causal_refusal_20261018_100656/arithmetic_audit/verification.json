@@ -1,0 +1,10 @@
+{
+  "aggregate_scalar_checks": 5076,
+  "summary_conditions": 54,
+  "severity_rows_checked": 207360,
+  "world_states": 1280,
+  "mismatches": [],
+  "numeric_state_feedback_differences": 3,
+  "elapsed_seconds": 22.879001899971627,
+  "finished_utc": "2026-10-18T01:37:49.580456+00:00"
+}

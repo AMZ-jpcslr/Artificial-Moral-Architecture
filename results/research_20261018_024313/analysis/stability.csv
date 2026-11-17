@@ -1,0 +1,17 @@
+prediction,variant,representation,n,identical,stability,added_danger,safe_success_lost,appropriate_review
+current,both,paraphrase_ja,2304,2304,1.0,0,0,1.0
+current,both,paraphrase_en,2304,2304,1.0,0,0,1.0
+current,both,incomplete,2304,766,0.3324652777777778,0,707,1.0
+current,combined,paraphrase_ja,2304,2304,1.0,0,0,1.0
+current,combined,paraphrase_en,2304,2304,1.0,0,0,1.0
+current,combined,incomplete,2304,317,0.13758680555555555,0,1102,1.0
+current,no_affect,paraphrase_ja,2304,2304,1.0,0,0,1.0
+current,no_affect,paraphrase_en,2304,2304,1.0,0,0,1.0
+current,no_affect,incomplete,2304,191,0.08289930555555555,0,1020,1.0
+current,rule,paraphrase_ja,2304,2304,1.0,0,0,1.0
+current,rule,paraphrase_en,2304,2304,1.0,0,0,1.0
+current,rule,incomplete,2304,153,0.06640625,0,943,1.0
+checked,both,paraphrase_ja,2304,2213,0.9605034722222222,46,0,1.0
+checked,both,paraphrase_en,2304,2213,0.9605034722222222,46,0,1.0
+checked,combined,paraphrase_ja,2304,2163,0.9388020833333334,74,3,1.0
+checked,combined,paraphrase_en,2304,2163,0.9388020833333334,74,3,1.0

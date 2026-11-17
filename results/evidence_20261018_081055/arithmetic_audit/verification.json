@@ -1,0 +1,13 @@
+{
+  "summary_conditions": 49,
+  "arithmetic_cells_checked": 5096,
+  "arithmetic_errors": [],
+  "safe_success_lost": 279,
+  "lost_previously_unsupported": 213,
+  "lost_previously_supported": 66,
+  "safe_success_gained": 61,
+  "gained_supported": 57,
+  "gained_unsupported": 4,
+  "elapsed_seconds": 7.494625999999698,
+  "finished_utc": "2026-10-17T23:36:13.174550+00:00"
+}

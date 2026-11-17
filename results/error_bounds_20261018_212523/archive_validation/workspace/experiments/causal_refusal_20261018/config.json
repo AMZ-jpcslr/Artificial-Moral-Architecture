@@ -1,0 +1,29 @@
+{
+  "version":"causal-refusal-v1",
+  "seeds":[2203,2213,2221,2237,2243,2267,2273,2281],
+  "replicates":[0,1,2],"steps":8,"bootstrap":2000,"bootstrap_seed":9919,
+  "parameters":{"cue_weight":0.5,"error_weight":0.5,"alpha":0.5},
+  "primary":{"accuracy":0.85,"budget":2,"representation":"canonical","allocation":"fixed","equal_compute":false},
+  "families":[
+    {"id":"causal_01","profile":"triad_disjoint_peak","mechanism":"event_pairing"},
+    {"id":"causal_02","profile":"triad_coupled_peak","mechanism":"unsafe_control"},
+    {"id":"causal_03","profile":"shared_event_different_people","mechanism":"event_pairing"},
+    {"id":"causal_04","profile":"hidden_high_impact","mechanism":"unsafe_control"},
+    {"id":"causal_05","profile":"multiple_reversible_peaks","mechanism":"negative_control"},
+    {"id":"causal_06","profile":"local_caution_boundary","mechanism":"negative_control"},
+    {"id":"causal_07","profile":"benign_harm_range","mechanism":"numeric_conflict"},
+    {"id":"causal_08","profile":"benign_reversibility_range","mechanism":"numeric_conflict"},
+    {"id":"causal_09","profile":"benign_joint_range","mechanism":"numeric_conflict"},
+    {"id":"causal_10","profile":"unsafe_harm_range","mechanism":"unsafe_control"},
+    {"id":"causal_11","profile":"unsafe_joint_domain","mechanism":"unsafe_control"},
+    {"id":"causal_12","profile":"singleton_records","mechanism":"negative_control"},
+    {"id":"causal_13","profile":"missing_numeric_records","mechanism":"missing_information"},
+    {"id":"causal_14","profile":"boolean_permission_conflict","mechanism":"consent"},
+    {"id":"causal_15","profile":"fragmented_provenance","mechanism":"provenance"},
+    {"id":"causal_16","profile":"false_source_consensus","mechanism":"false_observation"},
+    {"id":"causal_17","profile":"disputed_joint_mandate","mechanism":"ambiguous"},
+    {"id":"causal_18","profile":"resource_window_conflict","mechanism":"availability"},
+    {"id":"causal_19","profile":"delayed_permission_change","mechanism":"consent"},
+    {"id":"causal_20","profile":"two_mechanisms_overlap","mechanism":"overlap"}
+  ]
+}

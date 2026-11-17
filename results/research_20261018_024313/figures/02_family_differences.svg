@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="930.24pt" height="516.2112pt" viewBox="0 0 930.24 516.2112" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-18T03:09:44.873347</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 516.2112 
+L 930.24 516.2112 
+L 930.24 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 130.84 436.025289 
+L 519.79 436.025289 
+L 519.79 79.033992 
+L 130.84 79.033992 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 170.66848 436.025289 
+L 170.66848 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m84d32003ea" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m84d32003ea" x="170.66848" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="170.66848" y="451.824117" transform="rotate(-0 170.66848 451.824117)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 250.32544 436.025289 
+L 250.32544 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m84d32003ea" x="250.32544" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="250.32544" y="451.824117" transform="rotate(-0 250.32544 451.824117)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 329.9824 436.025289 
+L 329.9824 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m84d32003ea" x="329.9824" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="329.9824" y="451.824117" transform="rotate(-0 329.9824 451.824117)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 409.63936 436.025289 
+L 409.63936 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m84d32003ea" x="409.63936" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="409.63936" y="451.824117" transform="rotate(-0 409.63936 451.824117)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 489.29632 436.025289 
+L 489.29632 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m84d32003ea" x="489.29632" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="489.29632" y="451.824117" transform="rotate(-0 489.29632 451.824117)">40</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 11px; font-family: 'Yu Gothic'; text-anchor: middle" x="325.315" y="466.704" transform="rotate(-0 325.315 466.704)">H1＋H2 − 元モデル（ポイント）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <defs>
+       <path id="m81cc93abe0" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="106.262142" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="110.661556" transform="rotate(-0 123.84 110.661556)">01 危険＋権限</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="133.765324" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="138.164738" transform="rotate(-0 123.84 138.164738)">02 撤回＋遮断</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="161.268505" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="165.667919" transform="rotate(-0 123.84 165.667919)">03 復旧・代替の共通故障</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="188.771687" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="193.171101" transform="rotate(-0 123.84 193.171101)">04 二段階の曝露</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="216.274868" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="220.674282" transform="rotate(-0 123.84 220.674282)">05 防護＋同意範囲</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="243.77805" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="248.177464" transform="rotate(-0 123.84 248.177464)">06 復旧＋資源不足</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="271.281231" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="275.680645" transform="rotate(-0 123.84 275.680645)">07 権限の競合</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="298.784413" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="303.183827" transform="rotate(-0 123.84 303.183827)">08 複数同意＋資源</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="326.287595" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="330.687009" transform="rotate(-0 123.84 330.687009)">09 代替の同意侵害</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="353.790776" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="358.19019" transform="rotate(-0 123.84 358.19019)">10 代替の不可逆被害</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="381.293958" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="385.693372" transform="rotate(-0 123.84 385.693372)">11 遅い撤回＋損失</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="130.84" y="408.797139" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: end" x="123.84" y="413.196553" transform="rotate(-0 123.84 413.196553)">12 複数当事者の故障</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 170.66848 95.260869 
+L 465.23328 95.260869 
+L 465.23328 117.263415 
+L 170.66848 117.263415 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 170.66848 122.764051 
+L 369.81088 122.764051 
+L 369.81088 144.766596 
+L 170.66848 144.766596 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 170.66848 150.267232 
+L 290.98368 150.267232 
+L 290.98368 172.269778 
+L 170.66848 172.269778 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 170.66848 177.770414 
+L 328.32288 177.770414 
+L 328.32288 199.772959 
+L 170.66848 199.772959 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 170.66848 205.273596 
+L 394.70368 205.273596 
+L 394.70368 227.276141 
+L 170.66848 227.276141 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 170.66848 232.776777 
+L 237.04928 232.776777 
+L 237.04928 254.779322 
+L 170.66848 254.779322 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 170.66848 260.279959 
+L 259.176213 260.279959 
+L 259.176213 282.282504 
+L 170.66848 282.282504 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 170.66848 287.78314 
+L 224.60288 287.78314 
+L 224.60288 309.785686 
+L 170.66848 309.785686 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 170.66848 315.286322 
+L 183.11488 315.286322 
+L 183.11488 337.288867 
+L 170.66848 337.288867 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 170.66848 342.789504 
+L 257.79328 342.789504 
+L 257.79328 364.792049 
+L 170.66848 364.792049 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 170.66848 370.292685 
+L 361.51328 370.292685 
+L 361.51328 392.29523 
+L 170.66848 392.29523 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 170.66848 397.795867 
+L 386.092963 397.795867 
+L 386.092963 419.798412 
+L 170.66848 419.798412 
+z
+" clip-path="url(#pbc38b9004f)" style="fill: #0d9488"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 170.66848 436.025289 
+L 170.66848 79.033992 
+" clip-path="url(#pbc38b9004f)" style="fill: none; stroke: #374151; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 130.84 436.025289 
+L 130.84 79.033992 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 130.84 436.025289 
+L 519.79 436.025289 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="477.812442" y="109.681087" transform="rotate(-0 477.812442 109.681087)">+37.0</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="382.390042" y="137.184269" transform="rotate(-0 382.390042 137.184269)">+25.0</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="303.562842" y="164.68745" transform="rotate(-0 303.562842 164.68745)">+15.1</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="340.902042" y="192.190632" transform="rotate(-0 340.902042 192.190632)">+19.8</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="407.282842" y="219.693814" transform="rotate(-0 407.282842 219.693814)">+28.1</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="249.628442" y="247.196995" transform="rotate(-0 249.628442 247.196995)">+8.3</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="271.755375" y="274.700177" transform="rotate(-0 271.755375 274.700177)">+11.1</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="237.182042" y="302.203358" transform="rotate(-0 237.182042 302.203358)">+6.8</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="195.694042" y="329.70654" transform="rotate(-0 195.694042 329.70654)">+1.6</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="270.372442" y="357.209721" transform="rotate(-0 270.372442 357.209721)">+10.9</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="374.092442" y="384.712903" transform="rotate(-0 374.092442 384.712903)">+24.0</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="398.672125" y="412.216085" transform="rotate(-0 398.672125 412.216085)">+27.0</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 13px; font-family: 'Yu Gothic'; text-anchor: middle" x="325.315" y="73.033992" transform="rotate(-0 325.315 73.033992)">安全な達成の差（右が改善）</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_17">
+    <path d="M 534.09 436.025289 
+L 923.04 436.025289 
+L 923.04 79.033992 
+L 534.09 79.033992 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_24">
+      <path d="M 551.357795 436.025289 
+L 551.357795 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m84d32003ea" x="551.357795" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="551.357795" y="451.824117" transform="rotate(-0 551.357795 451.824117)">-15</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_26">
+      <path d="M 605.708886 436.025289 
+L 605.708886 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m84d32003ea" x="605.708886" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="605.708886" y="451.824117" transform="rotate(-0 605.708886 451.824117)">-10</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_28">
+      <path d="M 660.059978 436.025289 
+L 660.059978 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m84d32003ea" x="660.059978" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="660.059978" y="451.824117" transform="rotate(-0 660.059978 451.824117)">-5</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_30">
+      <path d="M 714.41107 436.025289 
+L 714.41107 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m84d32003ea" x="714.41107" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="714.41107" y="451.824117" transform="rotate(-0 714.41107 451.824117)">0</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_32">
+      <path d="M 768.762162 436.025289 
+L 768.762162 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m84d32003ea" x="768.762162" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="768.762162" y="451.824117" transform="rotate(-0 768.762162 451.824117)">5</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_34">
+      <path d="M 823.113253 436.025289 
+L 823.113253 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m84d32003ea" x="823.113253" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="823.113253" y="451.824117" transform="rotate(-0 823.113253 451.824117)">10</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_36">
+      <path d="M 877.464345 436.025289 
+L 877.464345 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m84d32003ea" x="877.464345" y="436.025289" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'Yu Gothic'; text-anchor: middle" x="877.464345" y="451.824117" transform="rotate(-0 877.464345 451.824117)">15</text>
+     </g>
+    </g>
+    <g id="text_39">
+     <text style="font-size: 11px; font-family: 'Yu Gothic'; text-anchor: middle" x="728.565" y="466.704" transform="rotate(-0 728.565 466.704)">H1＋H2 − 元モデル（ポイント）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_13">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="106.262142" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="133.765324" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="161.268505" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="188.771687" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="216.274868" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="243.77805" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="271.281231" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="298.784413" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="326.287595" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="353.790776" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="381.293958" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m81cc93abe0" x="534.09" y="408.797139" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 714.41107 95.260869 
+L 601.179629 95.260869 
+L 601.179629 117.263415 
+L 714.41107 117.263415 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 714.41107 122.764051 
+L 680.441638 122.764051 
+L 680.441638 144.766596 
+L 714.41107 144.766596 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 714.41107 150.267232 
+L 697.426354 150.267232 
+L 697.426354 172.269778 
+L 714.41107 172.269778 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 714.41107 177.770414 
+L 691.764782 177.770414 
+L 691.764782 199.772959 
+L 714.41107 199.772959 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 714.41107 205.273596 
+L 703.087926 205.273596 
+L 703.087926 227.276141 
+L 714.41107 227.276141 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 714.41107 232.776777 
+L 697.426354 232.776777 
+L 697.426354 254.779322 
+L 714.41107 254.779322 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 714.41107 260.279959 
+L 602.921651 260.279959 
+L 602.921651 282.282504 
+L 714.41107 282.282504 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 714.41107 287.78314 
+L 686.10321 287.78314 
+L 686.10321 309.785686 
+L 714.41107 309.785686 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 714.41107 315.286322 
+L 855.950371 315.286322 
+L 855.950371 337.288867 
+L 714.41107 337.288867 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #dc2626"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 714.41107 342.789504 
+L 697.426354 342.789504 
+L 697.426354 364.792049 
+L 714.41107 364.792049 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 714.41107 370.292685 
+L 680.441638 370.292685 
+L 680.441638 392.29523 
+L 714.41107 392.29523 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 714.41107 397.795867 
+L 611.86184 397.795867 
+L 611.86184 419.798412 
+L 714.41107 419.798412 
+z
+" clip-path="url(#p498e2e91f7)" style="fill: #0d9488"/>
+   </g>
+   <g id="line2d_50">
+    <path d="M 714.41107 436.025289 
+L 714.41107 79.033992 
+" clip-path="url(#p498e2e91f7)" style="fill: none; stroke: #374151; stroke-linecap: square"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 534.09 436.025289 
+L 534.09 79.033992 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 534.09 436.025289 
+L 923.04 436.025289 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="594.431035" y="109.681087" transform="rotate(-0 594.431035 109.681087)">-10.4</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="673.693044" y="137.184269" transform="rotate(-0 673.693044 137.184269)">-3.1</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="690.67776" y="164.68745" transform="rotate(-0 690.67776 164.68745)">-1.6</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="685.016188" y="192.190632" transform="rotate(-0 685.016188 192.190632)">-2.1</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="696.339332" y="219.693814" transform="rotate(-0 696.339332 219.693814)">-1.0</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="690.67776" y="247.196995" transform="rotate(-0 690.67776 247.196995)">-1.6</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="596.173057" y="274.700177" transform="rotate(-0 596.173057 274.700177)">-10.3</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="679.354616" y="302.203358" transform="rotate(-0 679.354616 302.203358)">-2.6</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start" x="862.698965" y="329.70654" transform="rotate(-0 862.698965 329.70654)">+13.0</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="690.67776" y="357.209721" transform="rotate(-0 690.67776 357.209721)">-1.6</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="673.693044" y="384.712903" transform="rotate(-0 673.693044 384.712903)">-3.1</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: end" x="605.113246" y="412.216085" transform="rotate(-0 605.113246 412.216085)">-9.4</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 13px; font-family: 'Yu Gothic'; text-anchor: middle" x="728.565" y="73.033992" transform="rotate(-0 728.565 73.033992)">危険選択の差（左が改善）</text>
+   </g>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 17px; font-family: 'Yu Gothic'; text-anchor: middle" x="465.84" y="22.158008" transform="rotate(-0 465.84 22.158008)">全体平均では隠れる系統ごとの副作用</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 9px; font-family: 'Yu Gothic'; text-anchor: start; fill: #4b5563" x="7.2" y="507.578231" transform="rotate(-0 7.2 507.578231)">同じ系統・seed・反復・stepの対応比較。12系統は同じ作者・原始因果部品を共有する合成環境で、外部の独立した道徳判断データではない。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbc38b9004f">
+   <rect x="130.84" y="79.033992" width="388.95" height="356.991297"/>
+  </clipPath>
+  <clipPath id="p498e2e91f7">
+   <rect x="534.09" y="79.033992" width="388.95" height="356.991297"/>
+  </clipPath>
+ </defs>
+</svg>

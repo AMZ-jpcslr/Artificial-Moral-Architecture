@@ -1,0 +1,25 @@
+{
+  "version":"action-evidence-20261018-v1",
+  "seeds":[1201,1213,1223,1231,1237,1249,1259,1277],
+  "replicates":[0,1,2],"steps":8,"bootstrap":2000,"bootstrap_seed":9113,
+  "parameters":{"cue_weight":0.5,"error_weight":0.5,"alpha":0.5},
+  "primary":{"accuracy":0.85,"budget":2,"representation":"canonical","allocation":"native","equal_compute":false},
+  "families":[
+    {"id":"evidence_01","profile":"revoked_consent_cache"},
+    {"id":"evidence_02","profile":"purpose_scope_transfer"},
+    {"id":"evidence_03","profile":"second_party_withdrawal"},
+    {"id":"evidence_04","profile":"concurrent_authorities"},
+    {"id":"evidence_05","profile":"stale_safety_certificate"},
+    {"id":"evidence_06","profile":"action_revision_mismatch"},
+    {"id":"evidence_07","profile":"coupled_harm_irreversible"},
+    {"id":"evidence_08","profile":"disjoint_event_risks"},
+    {"id":"evidence_09","profile":"resource_lease_loss"},
+    {"id":"evidence_10","profile":"resolvable_missing_consent"},
+    {"id":"evidence_11","profile":"unresolvable_missing_risk"},
+    {"id":"evidence_12","profile":"third_party_coverage_gap"},
+    {"id":"evidence_13","profile":"valid_false_attestation"},
+    {"id":"evidence_14","profile":"safe_with_decoy_denials"},
+    {"id":"evidence_15","profile":"compound_permission_sideeffect"},
+    {"id":"evidence_16","profile":"disputed_joint_authority"}
+  ]
+}

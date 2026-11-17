@@ -1,0 +1,252 @@
+{
+  "config": {
+    "version": "error-bound-v1",
+    "seeds": [
+      3301,
+      3307,
+      3313,
+      3319,
+      3323,
+      3329,
+      3331,
+      3343
+    ],
+    "replicates": [
+      0,
+      1,
+      2
+    ],
+    "steps": 8,
+    "bootstrap": 2000,
+    "bootstrap_seed": 10037,
+    "parameters": {
+      "cue_weight": 0.5,
+      "error_weight": 0.5,
+      "alpha": 0.5
+    },
+    "primary": {
+      "accuracy": 0.85,
+      "budget": 2,
+      "representation": "canonical",
+      "allocation": "fixed",
+      "equal_compute": false
+    },
+    "families": [
+      {
+        "id": "bound_01",
+        "profile": "covered_singleton",
+        "mechanism": "covered"
+      },
+      {
+        "id": "bound_02",
+        "profile": "covered_opposite_bias",
+        "mechanism": "covered"
+      },
+      {
+        "id": "bound_03",
+        "profile": "covered_same_direction_bias",
+        "mechanism": "covered"
+      },
+      {
+        "id": "bound_04",
+        "profile": "covered_low_reversibility",
+        "mechanism": "covered"
+      },
+      {
+        "id": "bound_05",
+        "profile": "hidden_harm_no_bound",
+        "mechanism": "unbounded_false_observation"
+      },
+      {
+        "id": "bound_06",
+        "profile": "large_calibrated_bias",
+        "mechanism": "wide_valid_bound"
+      },
+      {
+        "id": "bound_07",
+        "profile": "harm_threshold_crossing",
+        "mechanism": "crosses_constraint"
+      },
+      {
+        "id": "bound_08",
+        "profile": "reversibility_threshold_crossing",
+        "mechanism": "crosses_constraint"
+      },
+      {
+        "id": "bound_09",
+        "profile": "known_danger",
+        "mechanism": "danger_control"
+      },
+      {
+        "id": "bound_10",
+        "profile": "missing_certificate",
+        "mechanism": "missing_evidence"
+      },
+      {
+        "id": "bound_11",
+        "profile": "expired_certificate",
+        "mechanism": "invalid_validity"
+      },
+      {
+        "id": "bound_12",
+        "profile": "context_outside",
+        "mechanism": "outside_calibration"
+      },
+      {
+        "id": "bound_13",
+        "profile": "partial_calibration",
+        "mechanism": "outside_calibration"
+      },
+      {
+        "id": "bound_14",
+        "profile": "underclaimed_bound",
+        "mechanism": "invalid_arithmetic"
+      },
+      {
+        "id": "bound_15",
+        "profile": "untraceable_reference",
+        "mechanism": "unverified_provenance"
+      },
+      {
+        "id": "bound_16",
+        "profile": "duplicate_binding",
+        "mechanism": "ambiguous_binding"
+      },
+      {
+        "id": "bound_17",
+        "profile": "declared_correlated_sources",
+        "mechanism": "declared_dependence"
+      },
+      {
+        "id": "bound_18",
+        "profile": "covert_correlated_forgery",
+        "mechanism": "hidden_contract_violation"
+      },
+      {
+        "id": "bound_19",
+        "profile": "consent_conflict",
+        "mechanism": "consent"
+      },
+      {
+        "id": "bound_20",
+        "profile": "consent_denied",
+        "mechanism": "consent"
+      },
+      {
+        "id": "bound_21",
+        "profile": "availability_conflict",
+        "mechanism": "availability"
+      },
+      {
+        "id": "bound_22",
+        "profile": "disputed_authority",
+        "mechanism": "ambiguous"
+      },
+      {
+        "id": "bound_23",
+        "profile": "disjoint_intervals",
+        "mechanism": "inconsistent_intervals"
+      },
+      {
+        "id": "bound_24",
+        "profile": "stale_acquisition",
+        "mechanism": "invalid_validity"
+      }
+    ]
+  },
+  "sources": {
+    "experiments/action_evidence_20261018/PROTOCOL.md": "3d23c1b50ceaaeab94b2ccd1be929ffb8d763fad5b5d6c535ad2062c29cb50e8",
+    "experiments/action_evidence_20261018/__init__.py": "6bccb235b573478f5e67682dc520fd10fca60a70e795e29a727fb0efbbfce0e1",
+    "experiments/action_evidence_20261018/config.json": "690b1c2d753345f15dd69f94b35ebdc699f60c466db9cc992d3771e05379f316",
+    "experiments/action_evidence_20261018/controller.py": "51bc16ee5121d50af83c06495a9ba349f7f1632a00852be9907cb0b85ca48157",
+    "experiments/action_evidence_20261018/evaluation.py": "b6501383372937104f6bc3262bb127a78c6dffd68bd836d42f7717d7476b250d",
+    "experiments/action_evidence_20261018/metrics.py": "09dbbf9dc782153129b632ccdc57e98c0e3fd499451547ef99fc129d28dab1a2",
+    "experiments/action_evidence_20261018/public.py": "6d8785ef2d892b167eef18b4d03a397401d84f1e775f3cf1523c4dbdee505a9c",
+    "experiments/action_evidence_20261018/runner.py": "6ba74d7131ac3b9bc477cefc24279a58ec010551c952d23971ae35fae0617915",
+    "experiments/action_evidence_20261018/worlds.py": "2775cdda040043651d23fe68afb41c2e7d91ed11132e65a53eef8a048071f5ec",
+    "experiments/causal_refusal_20261018/PROTOCOL.md": "658e46c2eea36b0525ee426e038a71752f395ee6952f74133df9300d36588c56",
+    "experiments/causal_refusal_20261018/__init__.py": "8d8f20fee268cafe4834bda9fc5d45ce90b7453f79522a5aed0fe6f8ee7f8d55",
+    "experiments/causal_refusal_20261018/config.json": "4dcb4529fd2bda34b385d074162ca230f367046b320165c63a2be1edb6732a4a",
+    "experiments/causal_refusal_20261018/controller.py": "52ad906f4e9d2409abc33191aa29b30860b1f91b2ba073958572d89f63057c5b",
+    "experiments/causal_refusal_20261018/runner.py": "50911014823aedbc2a2e94ea19ff5ada2ac666ba883a0ff017d5bf8ff132245b",
+    "experiments/causal_refusal_20261018/worlds.py": "848b5fe64424932db24879cbfa7970c319e8411014b6d782830ad9e38ddcb3cb",
+    "experiments/error_bounds_20261018/PROTOCOL.md": "dd0b41a6ad68d7ed79e7273dfd6dfdbccc73755c73b7fa9f6b7d36abbb4177a9",
+    "experiments/error_bounds_20261018/__init__.py": "6a21e1483437895b9c3bed0daeeb5281aad796814da2320227e10486a340f761",
+    "experiments/error_bounds_20261018/config.json": "3c2031a7d0bc18b78b95126028ebc5b0a27ccce13ccd02a71395b23c3db46287",
+    "experiments/error_bounds_20261018/controller.py": "e44a7d9e3616d7d4328a6ffeaa3d81bd47bb8a04cf282f5d9172009798074e04",
+    "experiments/error_bounds_20261018/evaluation.py": "9a65ab2d02182929a65862cd6f3f48b26cc2ae090748c85ba551e3d0fefa4ef1",
+    "experiments/error_bounds_20261018/metrics.py": "f23457dbd7eb892bd4c2d3eb34b55f224e94d5db1e1548396db848e8a85d0930",
+    "experiments/error_bounds_20261018/probes.py": "cb9610b0f6c21fd4ba4b5de7e24eed2b55dd1219c671efce91cb0aadab0ce86c",
+    "experiments/error_bounds_20261018/public.py": "6d9cbff9f68e676c881b852177693edd4fd5c5df8619e9c2726766cf23dc0b55",
+    "experiments/error_bounds_20261018/runner.py": "2088f78cbcda429b9f29da02571b6c5c525604e24ab4db095e57f1c5fee9d22e",
+    "experiments/error_bounds_20261018/worlds.py": "af838c6e5786634ba0ebf4eeec9ce592c5b2c771f2b22a53e462ea41f43a3220",
+    "experiments/research_20261018/__init__.py": "6c114c9bd9bf7c83c9e7c91fcfb9e4d2d9d73579262d4016d40d059ad5232d04",
+    "experiments/research_20261018/analyze.py": "ab6f5a84a32ecf57f8bc7d37c6b17a4afc1d2c1f31e614f7d496d0a0f11cd034",
+    "experiments/research_20261018/controllers.py": "182b04022825a79184bd3ebb568a0c660d9a33b70464bd5fad32f1f45f30f110",
+    "experiments/research_20261018/diagnostic_correction.py": "01ef9f5d1db2be78889bde2bc237457b1c3f0acd16fcf21ee20d356e2a3ff6c1",
+    "experiments/research_20261018/finalize_artifacts.py": "fd5690ae312353ac2f1db5ff1e07057cba9df7a011803e0d429ed8117d348644",
+    "experiments/research_20261018/mechanism_audit.py": "a96041277622c7ce5816d0b9621d613dd9cd0f1b16984f53804ee6cdb0b420f8",
+    "experiments/research_20261018/metrics.py": "f92a6fcd73702077cd08669ebb8108ad9573ba4867c8768e70f37b0f9b8ed385",
+    "experiments/research_20261018/plot_results.py": "75a6f3cf88f410c1b13b5d67ec614a29023f7c73fdf029e159a8d6d6cfed8d5c",
+    "experiments/research_20261018/public.py": "f9617e4b5f7f9d9c7da1aa54ed4a5a353233aac04988c39399a5e82939a25c45",
+    "experiments/research_20261018/refusal_sensitivity.py": "c67bc5f86704ef383fc1a804d66479d289a29ced643a7cd321b4ffe8ff410f95",
+    "experiments/research_20261018/runner.py": "a2bf0b4d4fae32786aab6e5e14ae703baa94a0dd00c25984bc32b107bac7a709",
+    "experiments/research_20261018/verification_replay.py": "86e943817c336f5842007caf38803c10db82624c101bdb1f47d6e6360427590b",
+    "experiments/research_20261018/verify_final.py": "fd7419334a71a0f5569b8ccc162d7f70743a988d5a417f6cc10d727c79bcb3ce",
+    "experiments/research_20261018/worlds.py": "abff0334792c49168be2f2a840ee1bfbf5cbf7f644cb48ad7394c5bb618ca9fa",
+    "experiments/research_20261018/write_report.py": "187ede1b70b4df490a89ac6f58007c4552d4c544e932a5bad50da8c16d849760",
+    "experiments/run_action_evidence.py": "0680573ff8e2771cb234b34ac5efd254dfc074dc06415dcfe00a0b58c96ce0cf",
+    "experiments/run_causal_refusal.py": "d599fe60fc1f0ba6ee13905cfcf421b09931bfd3a7baf0562ab091412ce7e4a9",
+    "experiments/run_error_bounds.py": "81b50b795f2f2a7a5acde72416dd04e2d5b351661fd2f3867564ea700edb40c9",
+    "src/moral_agent/__init__.py": "2ab4ff98e962f3caf62fd07ee8546c2a44550495f9f81d261a0328bc14b712d8",
+    "src/moral_agent/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/moral_agent/affect/__init__.py": "25bd1bfb9537323353321ea796ad9da3fa389f4e353ab80cc14a670d0d0bdc72",
+    "src/moral_agent/affect/agent.py": "0c4adb54dd87e0415480776dd2189c48b82e9be15c3d7da13073fbc737e8fa57",
+    "src/moral_agent/affect/appraisal.py": "51c442fac1ddd29f899a064fe1cec5eb8b7aac9c2500cf634fffe2765e0f8367",
+    "src/moral_agent/affect/interfaces.py": "bdaca780d286f2a9fe19c5bc6554b5a8409cab0c4a041c24e6c1009fe9be41dd",
+    "src/moral_agent/affect/metrics.py": "da21389465361c714144d6dc454e7ad0dff659de60ff83eb04d1c447b1253222",
+    "src/moral_agent/affect/probes.py": "50bc8a4d8a7b4b51834df72833a569bb383a383dbc536ca8e34f2e44a9db156f",
+    "src/moral_agent/affect/runner.py": "e790dea090bf96db77651cc0664940e7d5127a11d431cf98c9a7bc53d86dda0b",
+    "src/moral_agent/affect/storage.py": "2e03af748d5bba9b2d9f7b232a7b373a15d94722e61b74edf722764662851853",
+    "src/moral_agent/agent.py": "dfdbc24a477b4d115abc00041d656aee8b2955f566a8485f48410ae7620e615c",
+    "src/moral_agent/cli.py": "d729b192118de08ece19b37a84c9f9908796eaebcd5f0e278148af466dc3b4c3",
+    "src/moral_agent/commitment.py": "5fc154fd84f3b3dcc1a71e7c24fae613ade9185c863a0d8bd231f90b0bc6eeeb",
+    "src/moral_agent/concern_information/__init__.py": "209a9c025daf6d9df3673983e3542d0ad5a7667ab248fb19cc87bb6c569d3609",
+    "src/moral_agent/concern_information/controller.py": "48156fb530085deeaab4484fae7c743bc7ccb7e12d5c326bb453ec92e2c102e2",
+    "src/moral_agent/concern_information/runner.py": "f3a61a154b759505818f22580cfafefc63f45a1e55a1e730de49b11da321ffb3",
+    "src/moral_agent/concern_information/statistics.py": "50bd0eec88a7a85ff9303a6b52fda58ee9b677be5394df0f740bbe1b2167bc74",
+    "src/moral_agent/concern_information/world.py": "4a1f524dd2eb0dec41d615620b692c66e7928a9229fda7297a6442c2522bd214",
+    "src/moral_agent/counterfactual.py": "a32ef6e9d1edbfb2ec9b205a4a72289a495cf521d65d223ee4c7d78d007b6164",
+    "src/moral_agent/evaluate.py": "cf6b8e2353283d6de3e891587ba0aef6b7cb63c8944d1c1c8bd665524d7476a4",
+    "src/moral_agent/evaluation/__init__.py": "62f56200fab9dfc54511b9162758bcd64dbbe3941fafe2857c79afdc3d019869",
+    "src/moral_agent/evaluation/benchmark.py": "f1153626287d02b9bc649a1f35c249a11e3e8fde082efe5861d5c44320443097",
+    "src/moral_agent/evaluation/metrics.py": "1b6340922543179e6ab16c8ca416fc631f6f2beb225e1ffa79d042df8f77fc16",
+    "src/moral_agent/evaluation/runner.py": "211bd2363e17fd0b15e6149232600165af974edb71c235ab666da53fedab537b",
+    "src/moral_agent/evaluation/variants.py": "cf008aeb85bf2238c9b8e82774a99a614139d09b527799b2fba31778d088cd73",
+    "src/moral_agent/foresight.py": "50c7d5f68fedfbb58e7ebc4e5a33abfcbee165593bdfb096b5f8aeafdbb16bbe",
+    "src/moral_agent/interfaces.py": "53958d3f513c9405e370c8a259c7a34a01552e2fd24d3cd44272eebd6e3cc3d2",
+    "src/moral_agent/judgment.py": "3d04fa8adac4b1e696dc4c9b51409e2cff7c8af8aacaeae5648db8c58f0a0fdc",
+    "src/moral_agent/models.py": "39835ff4f5822fdd5ad2d6026400c8be6af8d3cb9eceb355f3c93dc3f9118a6e",
+    "src/moral_agent/moral_evaluation.py": "f70e8a231a487e07dc1948ec606993dcc8a8c163486f9b259d88a3078f202b8e",
+    "src/moral_agent/planner.py": "fd6c9365a988258290dd44d00804859ba87c183d39146203a4eb0bf4cc6a4326",
+    "src/moral_agent/prediction_validation/__init__.py": "80cab79f0562d81dbe945c90e4c119626e4f88b78ec7f1a339fd47d021ff5f2d",
+    "src/moral_agent/prediction_validation/consistency.py": "021dc79c308e9b3ed15d7c4c9cc5e1cf2f95a6830205177ed1ce2dd720daa563",
+    "src/moral_agent/prediction_validation/metrics.py": "56e3b98b072de14491bbdeaee472d004466b077ca806fb6b71b85ec0d76a1a9b",
+    "src/moral_agent/prediction_validation/providers.py": "ff8cc48c3ffe91d6ca46ec3ffd47400328a7567344e1d0391fe13e1a3e12a79e",
+    "src/moral_agent/prediction_validation/runner.py": "d15fb3488c670709efb498a51b20584d31870dfa859ab346a797e4bca6be5da6",
+    "src/moral_agent/sequential/__init__.py": "4354f82994e4862c1a0021aaeebfd4ec16419aaa3aeacf5e8e8d20af89b8ad2e",
+    "src/moral_agent/sequential/causal.py": "d4a19eb13e5f7c3e3a5e1926d9ebbc6c73292d85948660edd1bec39a8d3634a8",
+    "src/moral_agent/sequential/controller.py": "68c3cacb7a5287c2459d7852ff908331be749bbcbf2f04a7fdbadebee5367a3a",
+    "src/moral_agent/sequential/environment.py": "a10cfbdffafdc96925887faed1b8d50bc9a18b6f236c61b667cceb2b9de7debe",
+    "src/moral_agent/sequential/runner.py": "8c23bea534c4af9e860be8a0ffd08d6bba7d8e5a34708df75f20f8d5020bdc81",
+    "src/moral_agent/stakeholders.py": "8ebf43b82000812e67b2dbac69f6eb55cf233e40ea4d9564d735a3855342a7ef",
+    "tests/test_action_evidence.py": "dce79587a08d8ec3ec5b998fe1c597e15c5bd7240d403bdc0500c425bb421d4a",
+    "tests/test_causal_refusal.py": "e19a66dfb39a8b535b4a9682f6baacf93daf8123c454ee86ae508bb44b018ea4",
+    "tests/test_error_bounds.py": "f85e5cf967cf7d8c82160ee4d940acdf9114dc829f0e948a9dab05433d347c22"
+  },
+  "frozen_utc": "2026-10-18T12:40:37.102709+00:00",
+  "development": "results\\error_bounds_20261018_212523\\development_v1",
+  "parameters_tuned": false,
+  "prospective_not_yet_evaluated": true,
+  "independent_human_annotation": false
+}

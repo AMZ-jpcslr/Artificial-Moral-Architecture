@@ -4,9 +4,56 @@
 
 AIの行動選択の前に、未来予測・複数の当事者への影響評価・道徳判断を組み込む個人研究プロジェクトです。危険な行動を止めるだけでなく、目的を維持したまま安全な代替手段を選べるかを検証します。
 
-現在は **v0.2 — Functional Moral Affect** と、持続状態の効用を分離する **v0.2.x 逐次配分パイロット** を実装しています。Python 3.11以上で、APIキー・外部通信・実行時の外部ライブラリなしでデモと評価を実行できます。
+現在は **v0.2 — Functional Moral Affect**、**v0.2.x 逐次配分パイロット**に加え、Concernの情報価値・行動別証拠・因果的な拒否・公開誤差上界を検証する研究コードと保存済み結果まで含みます。Python 3.11以上で、APIキー・外部通信・実行時の外部ライブラリなしでデモと評価を実行できます。
 
 > これは固定ルールと合成シナリオによる研究基盤です。現実の道徳能力や、人間と同じ主観的感情を実現したと主張するものではありません。
+
+## 別PCで作業を始める
+
+Git、Git LFS、Python 3.11以上を用意し、作業用フォルダで次を実行してください。Git LFSは初回取得前にインストールしてください。
+
+```bash
+git lfs install
+git clone https://github.com/AMZ-jpcslr/Artificial-Moral-Architecture.git
+cd Artificial-Moral-Architecture
+git lfs pull
+python -X utf8 -m unittest discover -s tests -v
+python -X utf8 examples/demo.py
+python -X utf8 examples/affect_demo.py
+```
+
+開発ブランチは `master` です。パッケージのインストールやAPIキーの設定は不要です。`-X utf8` は日本語を含むファイルや出力を別PCでも同じ文字コードで扱うために指定します。端末で `python` が使えない場合は、その環境の `python3` または `py` に読み替えてください。
+
+保存済み結果は約3GBあり、10MiBを超える今回追加の成果物28ファイルをGit LFSで管理しています。通常のCloneではLFSファイルも取得されます。取得を省略した環境では、`git lfs pull` で実データを取得してください。Git LFSの認証を求められた場合は、リポジトリにアクセスできるGitHubアカウントを使ってください。
+
+コードの開発・テストだけを先に始める場合は、次の手順で大きな成果物のダウンロードを後回しにできます。
+
+```bash
+git clone --config filter.lfs.smudge= --config filter.lfs.required=false --config filter.lfs.process= https://github.com/AMZ-jpcslr/Artificial-Moral-Architecture.git
+cd Artificial-Moral-Architecture
+git lfs install --local --force
+python -X utf8 -m unittest discover -s tests -v
+# 保存済みの大きな結果が必要になった時点で実行
+git lfs pull
+```
+
+別PCで作業を再開するときは、ローカルの変更をcommitするなどしてから `git pull --ff-only` を実行します。研究用の新しい出力先を指定し、保存済みの参照結果を上書きしないでください。
+
+## 最新の研究保存点（2026-11-17公開整理）
+
+2026-10-18までの追加研究を、ソース・設定・テスト・事前計画・報告書・生ログ・保存時の検証記録とともに収録しています。各研究の結果は合成環境内の検証であり、反復回数を独立した評価ケース数とは扱いません。
+
+| 研究 | 報告・再開手順 |
+| --- | --- |
+| Concernの因果効果と追加確認の情報価値 | [報告](docs/concern_information_report.md) / [固定プロトコル](docs/concern_information_protocol.md) |
+| 情報選択と代替評価の追加検証 | [要約](results/research_20261018_024313/SUMMARY.md) / [RUNBOOK](results/research_20261018_024313/RUNBOOK.md) |
+| 行動ごとの公開証拠確認 | [要約](results/evidence_20261018_081055/SUMMARY.md) / [RUNBOOK](results/evidence_20261018_081055/RUNBOOK.md) |
+| 因果的な拒否と数値矛盾の一要因比較 | [要約](results/causal_refusal_20261018_100656/SUMMARY.md) / [RUNBOOK](results/causal_refusal_20261018_100656/RUNBOOK.md) |
+| 公開誤差上界の証拠確認（最新） | [要約](results/error_bounds_20261018_212523/SUMMARY.md) / [詳細](results/error_bounds_20261018_212523/REPORT.md) / [RUNBOOK](results/error_bounds_20261018_212523/RUNBOOK.md) |
+
+最新の公開誤差上界の比較は固定採否9/12群を達成しましたが、安全なタスク成功の低下と拒否の増加などから採用しませんでした。既定モデルへの置換はしていません。過去の試行と悪化例も保存しています。
+
+過去の報告書にある絶対パスは実行当時の記録です。別PCではClone先のルートから、記載された相対パスで実行してください。また、当時の「commit・pushなし」や外部送信禁止の記載は、その実験時の実施条件の記録です。今回の公開整理では、利用者の指示に基づいてGitHubへ保存しています。凍結済みソースと結果の改行変換を避けるため、`.gitattributes` でバイト列を保持します。
 
 ## まず動かす
 

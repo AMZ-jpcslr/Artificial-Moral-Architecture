@@ -1,0 +1,40 @@
+[
+  {
+    "label": "final_demo",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "examples/demo.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.1706908000051044
+  },
+  {
+    "label": "final_affect_demo",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "examples/affect_demo.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20603920001303777
+  },
+  {
+    "label": "compile_additions",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "-m",
+      "compileall",
+      "-q",
+      "experiments/research_20261018",
+      "experiments/run_research_followup.py",
+      "tests/test_research_followup.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.15080229999148287
+  }
+]

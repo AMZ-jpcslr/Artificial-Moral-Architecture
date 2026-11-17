@@ -1,0 +1,429 @@
+[
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "state"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "sensitivity"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "scoped"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_concern"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_empathy"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_guilt"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_persistence"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_alternatives"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.55,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.55,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.55,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.55,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.55,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.95,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.95,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.95,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.95,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.95,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 0,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 0,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 0,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 0,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 0,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 2,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 2,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 2,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 2,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 2,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "combined"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "both"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_ja",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "combined"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "both"
+  },
+  {
+    "prediction": "checked",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "paraphrase_en",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "incomplete",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "incomplete",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "incomplete",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "incomplete",
+    "variant": "combined"
+  }
+]

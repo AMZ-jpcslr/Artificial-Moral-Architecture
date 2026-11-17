@@ -1,0 +1,16 @@
+condition,variant,n,matched,agreement,new_danger
+paraphrase_ja,both,3072,3072,1.0,0
+paraphrase_ja,combined,3072,3072,1.0,0
+paraphrase_ja,rule,3072,3072,1.0,0
+paraphrase_ja,combined_verified,3072,3072,1.0,0
+paraphrase_ja,rule_verified,3072,3072,1.0,0
+paraphrase_en,both,3072,3072,1.0,0
+paraphrase_en,combined,3072,3072,1.0,0
+paraphrase_en,rule,3072,3072,1.0,0
+paraphrase_en,combined_verified,3072,3072,1.0,0
+paraphrase_en,rule_verified,3072,3072,1.0,0
+equal_compute,both,3072,3072,1.0,0
+equal_compute,combined,3072,3072,1.0,0
+equal_compute,rule,3072,3072,1.0,0
+equal_compute,combined_verified,3072,3072,1.0,0
+equal_compute,rule_verified,3072,3072,1.0,0

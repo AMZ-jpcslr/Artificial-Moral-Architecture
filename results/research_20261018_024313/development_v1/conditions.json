@@ -1,0 +1,93 @@
+[
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "history"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "state"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "sensitivity"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "scoped"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_concern"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_empathy"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_guilt"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_persistence"
+  },
+  {
+    "prediction": "current",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined_no_alternatives"
+  }
+]

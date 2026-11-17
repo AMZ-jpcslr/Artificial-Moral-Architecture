@@ -1,0 +1,17 @@
+evidence_01 complete: 9408 decisions
+evidence_02 complete: 18816 decisions
+evidence_03 complete: 28224 decisions
+evidence_04 complete: 37632 decisions
+evidence_05 complete: 47040 decisions
+evidence_06 complete: 56448 decisions
+evidence_07 complete: 65856 decisions
+evidence_08 complete: 75264 decisions
+evidence_09 complete: 84672 decisions
+evidence_10 complete: 94080 decisions
+evidence_11 complete: 103488 decisions
+evidence_12 complete: 112896 decisions
+evidence_13 complete: 122304 decisions
+evidence_14 complete: 131712 decisions
+evidence_15 complete: 141120 decisions
+evidence_16 complete: 150528 decisions
+{"phase": "prospective", "decision_runs": 150528, "conditions": 49, "families": 16, "seeds": 8, "sensor_replicates": 3, "unique_world_states": 1024, "queries": 254976, "virtual_decisions": 731136, "policy_seconds": 199.58348608389497, "elapsed_seconds": 336.40976439998485, "finished_utc": "2026-10-17T23:30:33.239581+00:00", "paid_api_calls": 0, "external_actions": 0}

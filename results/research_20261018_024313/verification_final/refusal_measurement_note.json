@@ -1,0 +1,31 @@
+{
+  "audit_type": "post-hoc descriptive denominator audit; no labels or adoption criteria changed",
+  "strata_partition_check": [
+    {
+      "variant": "rule",
+      "rows": 2304,
+      "eligible": 1485,
+      "over_refusal": 18
+    },
+    {
+      "variant": "history",
+      "rows": 2304,
+      "eligible": 1485,
+      "over_refusal": 59
+    },
+    {
+      "variant": "both",
+      "rows": 2304,
+      "eligible": 1485,
+      "over_refusal": 457
+    },
+    {
+      "variant": "combined",
+      "rows": 2304,
+      "eligible": 1485,
+      "over_refusal": 92
+    }
+  ],
+  "finding": "Overall over-refusal improvement is concentrated in procedural-pending scenarios; the low procedural uncertainty stratum worsens. This is not a human-validated epistemic refusal judgment.",
+  "archive_note": "The earlier source snapshot is retained as frozen_workspace_before_refusal_audit.zip. The current frozen_workspace.zip includes the additional descriptive analysis and report clarification. Behavioral freeze is unchanged."
+}

@@ -1,0 +1,12 @@
+{
+  "original_files_checked": 1110,
+  "original_files_changed": [],
+  "git_equal": {
+    "git_head.txt": true,
+    "git_unstaged.patch": true,
+    "git_staged.patch": true
+  },
+  "source_freeze_equal": true,
+  "frozen_files": 88,
+  "plan_equal": true
+}

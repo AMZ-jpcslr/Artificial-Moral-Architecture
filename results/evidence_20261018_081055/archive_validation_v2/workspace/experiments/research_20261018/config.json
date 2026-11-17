@@ -1,0 +1,26 @@
+{
+  "version": "research-20261018-v1",
+  "development_seeds": [13, 29],
+  "seeds": [101, 211, 307, 401, 503, 601, 701, 809],
+  "replicates": [0, 1, 2],
+  "episode_length": 8,
+  "bootstrap": 2000,
+  "bootstrap_seed": 9017,
+  "parameters": {"cue_weight": 0.5, "error_weight": 0.5, "alpha": 0.5},
+  "primary": {"prediction": "current", "accuracy": 0.75, "budget": 4, "representation": "canonical"},
+  "variants": ["rule", "no_affect", "history", "state", "both", "sensitivity", "scoped", "combined", "combined_no_concern", "combined_no_empathy", "combined_no_guilt", "combined_no_persistence", "combined_no_alternatives"],
+  "families": [
+    {"id": "prospective_01", "structure": "hazard_and_license", "split": "prospective"},
+    {"id": "prospective_02", "structure": "revocation_with_barrier", "split": "prospective"},
+    {"id": "prospective_03", "structure": "shared_backup_and_fallback", "split": "prospective"},
+    {"id": "prospective_04", "structure": "two_stage_exposure", "split": "prospective"},
+    {"id": "prospective_05", "structure": "shield_and_scope", "split": "prospective"},
+    {"id": "prospective_06", "structure": "restoration_and_capacity", "split": "prospective"},
+    {"id": "prospective_07", "structure": "competing_authorities", "split": "prospective"},
+    {"id": "prospective_08", "structure": "joint_consent_resource", "split": "prospective"},
+    {"id": "prospective_09", "structure": "fallback_privacy_side_effect", "split": "prospective"},
+    {"id": "prospective_10", "structure": "fallback_irreversible_side_effect", "split": "prospective"},
+    {"id": "prospective_11", "structure": "delayed_revocation_and_loss", "split": "prospective"},
+    {"id": "prospective_12", "structure": "multi_party_joint_failure", "split": "prospective"}
+  ]
+}

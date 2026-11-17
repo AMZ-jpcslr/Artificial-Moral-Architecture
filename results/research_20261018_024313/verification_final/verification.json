@@ -1,0 +1,12 @@
+{
+  "checked_summary_metrics": 305,
+  "summary_discrepancies": [],
+  "diagnostic_rows": 18432,
+  "diagnostic_discrepancies": [],
+  "original_files_checked": 164,
+  "original_files_changed": [],
+  "frozen_sources_equal": true,
+  "finished_utc": "2026-10-17T18:15:29.495720+00:00",
+  "elapsed_seconds": 16.877622800006066,
+  "all_comparison_rows": 519
+}

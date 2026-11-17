@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "experiments/run_action_evidence.py",
+    "--phase",
+    "prospective",
+    "--freeze",
+    "results\\evidence_20261018_081055\\registration_v1\\freeze.json",
+    "--output",
+    "results\\evidence_20261018_081055\\prospective_v1"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 336.63855919998605
+}

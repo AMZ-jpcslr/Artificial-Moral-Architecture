@@ -1,0 +1,7 @@
+variant,family,seed,replicate,step,old_action,new_action,new_decision,certificates_supplied
+numeric_set,causal_10,2221,0,7,alternative,alternative,MODIFY,0
+bound_verified,causal_10,2221,0,7,alternative,,ASK_HUMAN,0
+numeric_set,causal_10,2221,1,4,alternative,alternative,MODIFY,0
+bound_verified,causal_10,2221,1,4,alternative,,ASK_HUMAN,0
+numeric_set,causal_10,2237,2,3,alternative,alternative,MODIFY,0
+bound_verified,causal_10,2237,2,3,alternative,,ASK_HUMAN,0

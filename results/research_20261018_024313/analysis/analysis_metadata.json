@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 79.82805330000701,
+  "rows_checked": 140544,
+  "families": 12,
+  "duplicate_rows": 0,
+  "episode_coverage_ok": true,
+  "source_hashes_still_frozen": true,
+  "all_comparison_rows": 511,
+  "original_and_new_rates_have_different_denominators": true
+}

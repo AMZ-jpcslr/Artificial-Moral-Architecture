@@ -1,0 +1,19 @@
+Exploratory Concern/info pilot: medium accuracy, 4 actual queries
+Exp Mode        Variant    SafeTask Harm OverRef Ask Cost
+I   irrelevant  final      0.303 0.294 0.395 0.353 4.0
+I   irrelevant  off        0.447 0.409 0.132 0.062 4.0
+I   irrelevant  state      0.447 0.409 0.132 0.062 4.0
+I   relevant    final      0.325 0.263 0.408 0.369 4.0
+I   relevant    off        0.463 0.378 0.151 0.094 4.0
+I   relevant    state      0.463 0.378 0.151 0.094 4.0
+I   repeat      final      0.303 0.294 0.395 0.353 4.0
+I   repeat      off        0.447 0.409 0.132 0.062 4.0
+I   repeat      state      0.447 0.409 0.132 0.062 4.0
+II  relevant    both       0.381 0.216 0.386 0.353 4.0
+II  relevant    current    0.547 0.303 0.093 0.078 4.0
+II  relevant    final      0.400 0.194 0.361 0.359 4.0
+II  relevant    history    0.566 0.287 0.089 0.081 4.0
+II  relevant    select     0.531 0.328 0.115 0.069 4.0
+II  relevant    state      0.566 0.287 0.089 0.081 4.0
+II  relevant    uniform    0.463 0.378 0.151 0.094 4.0
+{'split': 'heldout', 'episode_runs': 7680, 'decisions': 61440, 'family_clusters': 10, 'parameters': {'cue_weight': 0.5, 'error_weight': 0.5, 'alpha': 0.5}, 'actual_budget_all_achieved': True, 'counterfactual_computation_not_charged_to_agent_queries': True, 'runtime_includes_local_counterfactual_instrumentation': True}

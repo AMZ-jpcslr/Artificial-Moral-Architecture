@@ -1,0 +1,58 @@
+[
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "rule"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "no_affect"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "both"
+  },
+  {
+    "prediction": "noisy_oracle",
+    "accuracy": 0.75,
+    "budget": 4,
+    "representation": "canonical",
+    "variant": "combined"
+  }
+]

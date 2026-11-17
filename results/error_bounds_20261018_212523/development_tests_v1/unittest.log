@@ -1,0 +1,51 @@
+test_benign_low_reversibility_keeps_permission (test_error_bounds.BoundEvidenceTests.test_benign_low_reversibility_keeps_permission) ... ok
+test_binding_cannot_move_to_another_action_revision (test_error_bounds.BoundEvidenceTests.test_binding_cannot_move_to_another_action_revision) ... ok
+test_bound_cannot_be_smaller_than_recomputed (test_error_bounds.BoundEvidenceTests.test_bound_cannot_be_smaller_than_recomputed) ... ok
+test_calibration_formula (test_error_bounds.BoundEvidenceTests.test_calibration_formula) ... ok
+test_consent_conflict_preserved (test_error_bounds.BoundEvidenceTests.test_consent_conflict_preserved) ... ok
+test_consent_denial_preserved (test_error_bounds.BoundEvidenceTests.test_consent_denial_preserved) ... ok
+test_coverage_missing_preserved (test_error_bounds.BoundEvidenceTests.test_coverage_missing_preserved) ... ok
+test_declared_common_lineage_is_unresolved (test_error_bounds.BoundEvidenceTests.test_declared_common_lineage_is_unresolved) ... ok
+test_declared_context_not_expanded_by_source (test_error_bounds.BoundEvidenceTests.test_declared_context_not_expanded_by_source) ... ok
+test_disjoint_certified_intervals_unresolved (test_error_bounds.BoundEvidenceTests.test_disjoint_certified_intervals_unresolved) ... ok
+test_dispute_preserved (test_error_bounds.BoundEvidenceTests.test_dispute_preserved) ... ok
+test_drift_cannot_be_omitted (test_error_bounds.BoundEvidenceTests.test_drift_cannot_be_omitted) ... ok
+test_duplicate_certificate (test_error_bounds.BoundEvidenceTests.test_duplicate_certificate) ... ok
+test_duplicate_measurement (test_error_bounds.BoundEvidenceTests.test_duplicate_measurement) ... ok
+test_expanded_interval_crossing_constraint_does_not_allow (test_error_bounds.BoundEvidenceTests.test_expanded_interval_crossing_constraint_does_not_allow) ... ok
+test_expired_certificate (test_error_bounds.BoundEvidenceTests.test_expired_certificate) ... ok
+test_full_domain_required (test_error_bounds.BoundEvidenceTests.test_full_domain_required) ... ok
+test_future_certificate (test_error_bounds.BoundEvidenceTests.test_future_certificate) ... ok
+test_grid_coverage_required (test_error_bounds.BoundEvidenceTests.test_grid_coverage_required) ... ok
+test_lipschitz_linear_family_conditional_coverage (test_error_bounds.BoundEvidenceTests.test_lipschitz_linear_family_conditional_coverage) ... ok
+test_missing_certificate (test_error_bounds.BoundEvidenceTests.test_missing_certificate) ... ok
+test_missing_measurement (test_error_bounds.BoundEvidenceTests.test_missing_measurement) ... ok
+test_nonfinite_bound (test_error_bounds.BoundEvidenceTests.test_nonfinite_bound) ... ok
+test_one_source_is_not_independence (test_error_bounds.BoundEvidenceTests.test_one_source_is_not_independence) ... ok
+test_outside_temperature (test_error_bounds.BoundEvidenceTests.test_outside_temperature) ... ok
+test_public_contract_can_be_forged_no_claim_of_detection (test_error_bounds.BoundEvidenceTests.test_public_contract_can_be_forged_no_claim_of_detection) ... ok
+test_reference_traceability_required (test_error_bounds.BoundEvidenceTests.test_reference_traceability_required) ... ok
+test_stale_calibration (test_error_bounds.BoundEvidenceTests.test_stale_calibration) ... ok
+test_union_envelope_contains_both_sources_not_intersection (test_error_bounds.BoundEvidenceTests.test_union_envelope_contains_both_sources_not_intersection) ... ok
+test_wrong_acquisition_time (test_error_bounds.BoundEvidenceTests.test_wrong_acquisition_time) ... ok
+test_wrong_authority (test_error_bounds.BoundEvidenceTests.test_wrong_authority) ... ok
+test_wrong_axis (test_error_bounds.BoundEvidenceTests.test_wrong_axis) ... ok
+test_wrong_instrument (test_error_bounds.BoundEvidenceTests.test_wrong_instrument) ... ok
+test_wrong_lineage (test_error_bounds.BoundEvidenceTests.test_wrong_lineage) ... ok
+test_wrong_method (test_error_bounds.BoundEvidenceTests.test_wrong_method) ... ok
+test_wrong_pipeline (test_error_bounds.BoundEvidenceTests.test_wrong_pipeline) ... ok
+test_all_variants_receive_same_public_information_and_budgets (test_error_bounds.ControllerIntegrationTests.test_all_variants_receive_same_public_information_and_budgets) ... ok
+test_equal_computation_count (test_error_bounds.ControllerIntegrationTests.test_equal_computation_count) ... ok
+test_old_current_and_numeric_unchanged (test_error_bounds.ControllerIntegrationTests.test_old_current_and_numeric_unchanged) ... ok
+test_order_invariant_decisions (test_error_bounds.ControllerIntegrationTests.test_order_invariant_decisions) ... ok
+test_rule_uses_identical_bound_validator (test_error_bounds.ControllerIntegrationTests.test_rule_uses_identical_bound_validator) ... ok
+test_unverified_numbers_do_not_allow_alternative (test_error_bounds.ControllerIntegrationTests.test_unverified_numbers_do_not_allow_alternative) ... ok
+test_reference_matches_contract_on_manual_and_invalid_inputs (test_error_bounds.IndependentAuditTests.test_reference_matches_contract_on_manual_and_invalid_inputs) ... ok
+test_source_boundaries (test_error_bounds.IndependentAuditTests.test_source_boundaries) ... ok
+test_true_values_absent_from_public_schema (test_error_bounds.IndependentAuditTests.test_true_values_absent_from_public_schema) ... ok
+test_variants_and_planned_count (test_error_bounds.IndependentAuditTests.test_variants_and_planned_count) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.104s
+
+OK

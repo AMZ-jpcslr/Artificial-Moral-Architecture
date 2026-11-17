@@ -1,0 +1,9 @@
+{
+  "rows": 147456,
+  "primary_rows": 18432,
+  "conditions": 32,
+  "unique_rows": 147456,
+  "adverse_transitions": 901,
+  "elapsed_seconds": 9.918503299995791,
+  "finished_utc": "2026-10-18T13:00:29.798979+00:00"
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "v01",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "experiments/run_benchmark.py",
+      "--output",
+      "results\\research_20261018_024313\\baseline\\v01"
+    ],
+    "exit_code": 0,
+    "seconds": 0.4031992999953218
+  },
+  {
+    "name": "v015",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "experiments/run_prediction_validation.py",
+      "--output",
+      "results\\research_20261018_024313\\baseline\\v015"
+    ],
+    "exit_code": 0,
+    "seconds": 2.1979940999881364
+  },
+  {
+    "name": "v02",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "experiments/run_affect_evaluation.py",
+      "--output",
+      "results\\research_20261018_024313\\baseline\\v02"
+    ],
+    "exit_code": 0,
+    "seconds": 19.425618199980818
+  },
+  {
+    "name": "v02x",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "experiments/run_sequential_allocation.py",
+      "--output",
+      "results\\research_20261018_024313\\baseline\\v02x"
+    ],
+    "exit_code": 0,
+    "seconds": 123.11548349997611
+  },
+  {
+    "name": "concern",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "experiments/run_concern_information.py",
+      "--phase",
+      "evaluate",
+      "--freeze",
+      "results/concern_information/registration_v1/freeze.json",
+      "--output",
+      "results\\research_20261018_024313\\baseline\\concern"
+    ],
+    "exit_code": 0,
+    "seconds": 142.0074220999959
+  }
+]

@@ -1,0 +1,392 @@
+variant,family,seed,replicate,step,action,reason,uncertainty,uncertainty_limit,harm,reversibility,review_harm,unknown,publicly_permitted
+numeric_set,causal_01,2243,1,3,alternative,soft_harm_review,0.15,0.65,0.42,0.05,0.41739894358016,[],True
+current,causal_01,2243,1,3,alternative,soft_harm_review,0.15,0.65,0.42,0.05,0.41739894358016,[],True
+numeric_set,causal_01,2273,1,6,alternative,soft_harm_review,0.55,0.56564,0.42,0.05,0.38129083991986007,[],True
+current,causal_01,2273,1,6,alternative,soft_harm_review,0.55,0.56564,0.42,0.05,0.38129083991986007,[],True
+numeric_set,causal_01,2273,2,5,alternative,soft_harm_review,0.55,0.55983,0.49,0.05,0.4255679373747814,[],True
+current,causal_01,2273,2,5,alternative,soft_harm_review,0.55,0.55983,0.49,0.05,0.4255679373747814,[],True
+numeric_set,causal_02,2273,0,5,alternative,soft_harm_review,0.55,0.5604450000000001,0.49,0.05,0.41071364390911996,[],True
+current,causal_02,2273,0,5,alternative,soft_harm_review,0.55,0.5604450000000001,0.49,0.05,0.41071364390911996,[],True
+numeric_set,causal_03,2203,2,2,alternative,soft_harm_review,0.15,0.65,0.49,0.05,0.428160708608,[],True
+current,causal_03,2203,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.1,0.428160708608,"[""reversibility/user/archive""]",True
+guilt_event,causal_03,2203,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.1,0.428160708608,"[""reversibility/user/archive""]",True
+current,causal_03,2213,0,4,alternative,numeric_disagreement,1.0,0.55626,0.04,0.1,0.5,"[""harm/third_party/contact""]",True
+guilt_event,causal_03,2213,0,4,alternative,numeric_disagreement,1.0,0.55626,0.04,0.1,0.5,"[""harm/third_party/contact""]",True
+current,causal_03,2221,1,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.8,0.5,"[""reversibility/organization/contact""]",True
+numeric_set,causal_03,2221,1,1,alternative,soft_harm_review,0.55,0.56315,0.45,0.1,0.41685278719999996,[],True
+guilt_event,causal_03,2221,1,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.8,0.5,"[""reversibility/organization/contact""]",True
+current,causal_03,2237,1,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.1,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_03,2237,1,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.1,0.5,"[""reversibility/user/archive""]",True
+current,causal_03,2243,1,4,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.34999564992511994,[],True
+numeric_set,causal_03,2243,1,4,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.34999564992511994,[],True
+current,causal_03,2243,2,4,alternative,soft_harm_review,0.15,0.65,0.45,0.05,0.3,[],True
+numeric_set,causal_03,2243,2,4,alternative,soft_harm_review,0.15,0.65,0.45,0.05,0.3,[],True
+numeric_set,causal_03,2267,0,6,alternative,soft_harm_review,0.15,0.65,0.42,0.1,0.35603229630267386,[],True
+current,causal_03,2267,0,6,alternative,soft_harm_review,0.15,0.65,0.42,0.1,0.35603229630267386,[],True
+numeric_set,causal_03,2267,1,4,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.41017817071616,[],True
+current,causal_03,2267,1,4,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.41017817071616,[],True
+numeric_set,causal_03,2281,0,7,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.40329879219807707,[],True
+current,causal_03,2281,0,7,alternative,soft_harm_review,0.15,0.65,0.45,0.1,0.40329879219807707,[],True
+numeric_set,causal_03,2281,1,5,alternative,soft_harm_review,0.15,0.65,0.49,0.1,0.4154868035118694,[],True
+current,causal_03,2281,1,5,alternative,soft_harm_review,0.15,0.65,0.49,0.1,0.4154868035118694,[],True
+current,causal_04,2213,0,1,alternative,numeric_disagreement,1.0,0.5550200000000001,0.06,0.9,0.5,"[""reversibility/organization/handover"", ""reversibility/user/archive""]",True
+guilt_event,causal_04,2213,0,1,alternative,numeric_disagreement,1.0,0.5550200000000001,0.06,0.9,0.5,"[""reversibility/organization/handover"", ""reversibility/user/archive""]",True
+guilt_event,causal_04,2237,2,1,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/user/archive""]",True
+current,causal_04,2237,2,1,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_04,2267,0,4,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/third_party/handling"", ""reversibility/user/archive""]",True
+current,causal_04,2267,0,4,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/third_party/handling"", ""reversibility/user/archive""]",True
+guilt_event,causal_04,2267,2,4,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/user/archive""]",True
+current,causal_04,2267,2,4,alternative,numeric_disagreement,1.0,0.55358,0.06,0.1,0.5,"[""reversibility/user/archive""]",True
+current,causal_04,2273,1,7,alternative,numeric_disagreement,1.0,0.55511,0.06,0.95,0.5,"[""reversibility/third_party/handling"", ""reversibility/organization/handover"", ""reversibility/user/archive""]",True
+guilt_event,causal_04,2273,1,7,alternative,numeric_disagreement,1.0,0.55511,0.06,0.95,0.5,"[""reversibility/third_party/handling"", ""reversibility/organization/handover"", ""reversibility/user/archive""]",True
+guilt_event,causal_06,2267,2,7,alternative,numeric_disagreement,1.0,0.52617,0.34,0.35,0.4129835518128281,"[""reversibility/user/archive""]",True
+current,causal_06,2267,2,7,alternative,numeric_disagreement,1.0,0.52617,0.34,0.35,0.4129835518128281,"[""reversibility/user/archive""]",True
+guilt_event,causal_07,2203,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2203,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2203,0,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2203,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2203,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2203,0,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2203,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2203,2,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2203,2,7,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.30424141397177135,"[""harm/third_party/handling""]",True
+current,causal_07,2203,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2203,2,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2203,2,7,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.30424141397177135,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2213,0,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2213,0,7,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2213,0,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2213,0,7,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2213,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2213,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2213,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2213,2,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2213,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2213,2,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2221,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2221,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2221,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2221,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2237,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2237,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2237,1,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2237,1,2,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2237,1,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2237,1,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2237,1,2,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2237,1,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2237,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/organization/handover""]",True
+guilt_event,causal_07,2237,2,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2237,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/organization/handover""]",True
+current,causal_07,2237,2,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2243,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2243,0,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2243,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2243,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2243,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2243,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2267,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.41685278719999996,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2267,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/organization/handover""]",True
+current,causal_07,2267,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.41685278719999996,"[""harm/third_party/handling""]",True
+current,causal_07,2267,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/organization/handover""]",True
+guilt_event,causal_07,2267,2,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2267,2,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2273,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2273,0,4,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.428631580368896,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2273,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2273,0,4,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.428631580368896,"[""harm/third_party/handling""]",True
+current,causal_07,2273,1,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2273,1,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2273,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_07,2273,2,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2273,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2273,2,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2281,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.42056038399999995,"[""harm/third_party/handling""]",True
+current,causal_07,2281,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.42056038399999995,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2281,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.4205852672,"[""harm/third_party/handling""]",True
+current,causal_07,2281,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.4205852672,"[""harm/third_party/handling""]",True
+guilt_event,causal_07,2281,2,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.4205852672,"[""harm/third_party/handling""]",True
+current,causal_07,2281,2,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.05,0.4205852672,"[""harm/third_party/handling""]",True
+current,causal_08,2203,0,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2203,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2203,0,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2203,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2203,2,2,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2203,2,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2203,2,2,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2203,2,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2213,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2213,0,4,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2213,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2213,0,4,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2213,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2213,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2213,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2213,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2213,2,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2213,2,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,0,5,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,0,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,0,5,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,0,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,1,5,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,1,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,1,5,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,1,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2221,2,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2221,2,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2237,0,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2237,0,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2237,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2237,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2237,2,1,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2237,2,4,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.41887205887999995,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2237,2,1,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2237,2,4,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.41887205887999995,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,1,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,1,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,1,6,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.37320986535526396,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,1,0,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,1,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,1,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,1,6,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.37320986535526396,"[""reversibility/third_party/handling""]",True
+current,causal_08,2243,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2243,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2267,0,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2267,0,4,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2267,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2267,0,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2267,0,4,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2267,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2267,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2267,1,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2267,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2267,1,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2273,0,3,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.404813548544,"[""reversibility/third_party/handling""]",True
+current,causal_08,2273,0,3,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.404813548544,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2273,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2273,1,6,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2273,1,3,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2273,1,6,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2273,2,6,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2273,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2273,2,6,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2273,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2281,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2281,0,5,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2281,1,2,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2281,1,4,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2281,1,2,alternative,numeric_disagreement,1.0,0.55406,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2281,1,4,alternative,numeric_disagreement,1.0,0.554345,0.06,0.05,0.5,"[""reversibility/third_party/handling""]",True
+guilt_event,causal_08,2281,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_08,2281,2,7,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/third_party/handling""]",True
+current,causal_09,2203,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2203,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2203,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2203,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2203,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2203,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2213,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2213,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2213,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2213,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2213,2,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2213,2,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2213,2,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2213,2,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2221,0,0,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2221,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2221,0,0,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2221,0,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2221,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2221,1,6,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2221,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2221,1,6,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2221,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2221,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2237,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2237,1,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2243,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2243,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2267,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2267,0,1,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2267,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2267,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2267,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2267,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,0,6,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,0,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,0,6,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,0,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,1,6,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,1,6,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,2,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,2,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2273,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,2,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,2,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2273,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2281,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2281,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover""]",True
+current,causal_09,2281,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2281,0,1,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover""]",True
+guilt_event,causal_09,2281,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2281,1,3,alternative,numeric_disagreement,1.0,0.55566,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2281,2,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_09,2281,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2281,2,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_09,2281,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_10,2221,0,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_10,2221,0,7,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_10,2221,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_10,2221,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_10,2237,2,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_10,2237,2,3,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_10,2267,0,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+guilt_event,causal_10,2267,0,6,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling""]",True
+current,causal_10,2267,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_10,2267,1,2,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2203,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2203,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2203,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover""]",True
+current,causal_11,2203,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2203,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover""]",True
+guilt_event,causal_11,2203,2,5,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2213,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2213,0,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2221,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2221,0,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2237,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2237,2,0,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2267,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2267,1,4,alternative,numeric_disagreement,1.0,0.55656,0.04,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+current,causal_11,2273,0,5,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+guilt_event,causal_11,2273,0,5,alternative,numeric_disagreement,1.0,0.555945,0.04,0.05,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling""]",True
+numeric_set,causal_13,2203,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2203,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2203,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2203,2,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2203,2,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2203,2,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2213,1,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2213,1,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2213,1,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2213,2,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2213,2,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2213,2,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2237,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2237,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2237,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2237,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2237,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2237,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2237,1,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.4205852672,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2237,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2237,1,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.4205852672,"[""reversibility/organization/handover""]",True
+current,causal_13,2237,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2237,1,1,alternative,missing_numeric_evidence,1.0,0.55349,0.06,0.05,0.4205852672,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2237,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2237,2,1,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2237,2,1,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2237,2,1,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2243,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2243,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2243,0,3,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2243,1,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2243,1,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2243,1,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2267,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2267,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2267,1,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2267,2,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2267,2,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2267,2,7,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+numeric_set,causal_13,2273,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_13,2273,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_13,2273,0,5,alternative,missing_numeric_evidence,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_16,2243,1,4,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.5,"[""harm/third_party/handling"", ""harm/user/archive""]",True
+current,causal_16,2243,1,4,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.5,"[""harm/third_party/handling"", ""harm/user/archive""]",True
+guilt_event,causal_16,2243,2,4,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""harm/user/archive""]",True
+current,causal_16,2243,2,4,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""harm/user/archive""]",True
+current,causal_16,2267,0,5,alternative,numeric_disagreement,1.0,0.557555,0.03,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover"", ""harm/user/archive""]",True
+guilt_event,causal_16,2267,0,5,alternative,numeric_disagreement,1.0,0.557555,0.03,0.8,0.5,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""reversibility/organization/handover"", ""harm/user/archive""]",True
+current,causal_16,2267,1,5,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.40805235249151994,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""harm/user/archive""]",True
+guilt_event,causal_16,2267,1,5,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.40805235249151994,"[""harm/third_party/handling"", ""reversibility/third_party/handling"", ""harm/user/archive""]",True
+current,causal_16,2267,2,5,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.3967027722272768,"[""harm/third_party/handling"", ""harm/user/archive""]",True
+guilt_event,causal_16,2267,2,5,alternative,numeric_disagreement,1.0,0.55679,0.03,0.1,0.3967027722272768,"[""harm/third_party/handling"", ""harm/user/archive""]",True
+guilt_event,causal_19,2273,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_19,2273,0,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+guilt_event,causal_19,2273,2,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_19,2273,2,2,alternative,numeric_disagreement,1.0,0.55496,0.06,0.8,0.5,"[""reversibility/organization/handover""]",True
+current,causal_20,2203,0,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2203,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,0,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+numeric_set,causal_20,2203,1,4,alternative,soft_harm_review,0.55,0.56315,0.45,0.05,0.419678903607296,[],True
+current,causal_20,2203,1,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2203,1,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2203,1,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,1,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,1,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,1,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2203,2,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2203,2,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2213,0,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2213,0,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2213,1,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2213,1,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2213,1,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2213,1,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2213,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2213,2,4,alternative,numeric_disagreement,1.0,0.557465,0.03,0.85,0.5,"[""harm/third_party/handling"", ""reversibility/user/archive""]",True
+current,causal_20,2213,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2213,2,4,alternative,numeric_disagreement,1.0,0.557465,0.03,0.85,0.5,"[""harm/third_party/handling"", ""reversibility/user/archive""]",True
+numeric_set,causal_20,2213,2,4,alternative,soft_harm_review,0.55,0.56315,0.45,0.05,0.418900003708928,[],True
+guilt_event,causal_20,2221,1,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2221,1,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2221,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.05,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2221,2,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2221,2,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2221,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.05,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2221,2,4,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2221,2,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+numeric_set,causal_20,2221,2,4,alternative,soft_harm_review,0.15,0.65,0.45,0.05,0.426301955465216,[],True
+current,causal_20,2237,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2237,2,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2243,0,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2243,0,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2243,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2243,0,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2243,0,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2243,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2243,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.05,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2243,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.05,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2267,0,4,alternative,numeric_disagreement,1.0,0.557465,0.03,0.85,0.5,"[""harm/third_party/handling"", ""reversibility/user/archive""]",True
+guilt_event,causal_20,2267,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2267,0,4,alternative,numeric_disagreement,1.0,0.557465,0.03,0.85,0.5,"[""harm/third_party/handling"", ""reversibility/user/archive""]",True
+current,causal_20,2267,0,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2267,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2267,2,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2267,2,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2267,2,3,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2267,2,5,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2267,2,7,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+numeric_set,causal_20,2273,1,1,alternative,soft_harm_review,0.55,0.56315,0.45,0.05,0.42822440959999997,[],True
+guilt_event,causal_20,2273,1,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2273,1,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2281,0,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2281,0,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2281,1,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+current,causal_20,2281,1,2,alternative,numeric_disagreement,1.0,0.5193300000000001,0.49,0.85,0.5,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2281,2,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.05,0.42822440959999997,"[""reversibility/user/archive""]",True
+guilt_event,causal_20,2281,2,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True
+numeric_set,causal_20,2281,2,1,alternative,soft_harm_review,0.55,0.56315,0.45,0.05,0.42822440959999997,[],True
+current,causal_20,2281,2,1,alternative,numeric_disagreement,1.0,0.5226500000000001,0.45,0.05,0.42822440959999997,"[""reversibility/user/archive""]",True
+current,causal_20,2281,2,6,alternative,numeric_disagreement,1.0,0.52514,0.42,0.85,0.5,"[""reversibility/user/archive""]",True

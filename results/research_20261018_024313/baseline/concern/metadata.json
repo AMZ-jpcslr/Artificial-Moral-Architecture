@@ -1,0 +1,14 @@
+{
+  "split": "heldout",
+  "episode_runs": 7680,
+  "decisions": 61440,
+  "family_clusters": 10,
+  "parameters": {
+    "cue_weight": 0.5,
+    "error_weight": 0.5,
+    "alpha": 0.5
+  },
+  "actual_budget_all_achieved": true,
+  "counterfactual_computation_not_charged_to_agent_queries": true,
+  "runtime_includes_local_counterfactual_instrumentation": true
+}

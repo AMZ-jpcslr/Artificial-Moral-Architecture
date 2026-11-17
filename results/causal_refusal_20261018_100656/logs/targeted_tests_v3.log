@@ -1,0 +1,40 @@
+test_disjoint_event_review_fixed (test_causal_refusal.GuiltPairingTests.test_disjoint_event_review_fixed) ... ok
+test_hard_constraints_unchanged (test_causal_refusal.GuiltPairingTests.test_hard_constraints_unchanged) ... ok
+test_inactive_guilt_has_no_pairing_effect (test_causal_refusal.GuiltPairingTests.test_inactive_guilt_has_no_pairing_effect) ... ok
+test_one_factor_guilt_fix_does_not_discharge_numeric_conflict (test_causal_refusal.GuiltPairingTests.test_one_factor_guilt_fix_does_not_discharge_numeric_conflict) ... ok
+test_one_factor_numeric_fix_does_not_fix_guilt_pair (test_causal_refusal.GuiltPairingTests.test_one_factor_numeric_fix_does_not_fix_guilt_pair) ... ok
+test_same_event_different_stakeholders_remain_separate (test_causal_refusal.GuiltPairingTests.test_same_event_different_stakeholders_remain_separate) ... ok
+test_same_event_soft_caution_still_reviewed (test_causal_refusal.GuiltPairingTests.test_same_event_soft_caution_still_reviewed) ... ok
+test_same_event_unsafe_pair_still_blocked (test_causal_refusal.GuiltPairingTests.test_same_event_unsafe_pair_still_blocked) ... ok
+test_uncertainty_still_takes_precedence (test_causal_refusal.GuiltPairingTests.test_uncertainty_still_takes_precedence) ... ok
+test_unknown_and_hard_precedence_preserved (test_causal_refusal.GuiltPairingTests.test_unknown_and_hard_precedence_preserved) ... ok
+test_zero_probability_event_ignored (test_causal_refusal.GuiltPairingTests.test_zero_probability_event_ignored) ... ok
+test_boolean_consent_conflict_retained (test_causal_refusal.NumericDomainTests.test_boolean_consent_conflict_retained) ... ok
+test_boolean_resource_conflict_retained (test_causal_refusal.NumericDomainTests.test_boolean_resource_conflict_retained) ... ok
+test_cartesian_pair_count_and_domains_retained (test_causal_refusal.NumericDomainTests.test_cartesian_pair_count_and_domains_retained) ... ok
+test_coverage_and_dispute_not_discharged (test_causal_refusal.NumericDomainTests.test_coverage_and_dispute_not_discharged) ... ok
+test_denial_and_unsafe_singleton_not_discharged (test_causal_refusal.NumericDomainTests.test_denial_and_unsafe_singleton_not_discharged) ... ok
+test_fully_missing_records_never_authorize (test_causal_refusal.NumericDomainTests.test_fully_missing_records_never_authorize) ... ok
+test_invalid_metadata_cannot_supply_missing_numeric (test_causal_refusal.NumericDomainTests.test_invalid_metadata_cannot_supply_missing_numeric) ... ok
+test_missing_other_numeric_axis_stays_unknown (test_causal_refusal.NumericDomainTests.test_missing_other_numeric_axis_stays_unknown) ... ok
+test_record_order_cannot_change_proof_or_envelope (test_causal_refusal.NumericDomainTests.test_record_order_cannot_change_proof_or_envelope) ... ok
+test_safe_harm_conflict_uses_max (test_causal_refusal.NumericDomainTests.test_safe_harm_conflict_uses_max) ... ok
+test_safe_reversibility_conflict_uses_min (test_causal_refusal.NumericDomainTests.test_safe_reversibility_conflict_uses_min) ... ok
+test_safety_proof_agrees_with_separate_public_auditor (test_causal_refusal.NumericDomainTests.test_safety_proof_agrees_with_separate_public_auditor) ... ok
+test_singletons_identical_to_original (test_causal_refusal.NumericDomainTests.test_singletons_identical_to_original) ... ok
+test_threshold_boundaries (test_causal_refusal.NumericDomainTests.test_threshold_boundaries) ... ok
+test_unsafe_cross_product_not_averaged (test_causal_refusal.NumericDomainTests.test_unsafe_cross_product_not_averaged) ... ok
+test_comparators_match_legacy_controllers (test_causal_refusal.ProcedureTests.test_comparators_match_legacy_controllers) ... ok
+test_controller_no_private_or_evaluator_import (test_causal_refusal.ProcedureTests.test_controller_no_private_or_evaluator_import) ... ok
+test_current_wrapper_matches_inherited_implementation (test_causal_refusal.ProcedureTests.test_current_wrapper_matches_inherited_implementation) ... ok
+test_fixed_information_and_cost_identical (test_causal_refusal.ProcedureTests.test_fixed_information_and_cost_identical) ... ok
+test_frozen_import_closure_included (test_causal_refusal.ProcedureTests.test_frozen_import_closure_included) ... ok
+test_matrix_and_new_family_labels (test_causal_refusal.ProcedureTests.test_matrix_and_new_family_labels) ... ok
+test_no_combined_intervention_accepted (test_causal_refusal.ProcedureTests.test_no_combined_intervention_accepted) ... ok
+test_padding_cannot_change_behavior (test_causal_refusal.ProcedureTests.test_padding_cannot_change_behavior) ... ok
+test_virtual_decisions_leave_affect_errors_packet_unchanged (test_causal_refusal.ProcedureTests.test_virtual_decisions_leave_affect_errors_packet_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.111s
+
+OK

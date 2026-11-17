@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-10-17T17:43:13Z",
+  "deadline_utc": "2026-10-17T21:43:13Z",
+  "report_phase_latest_utc": "2026-10-17T21:13:13Z",
+  "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Python314\\python.exe",
+  "platform": "win32",
+  "file_count": 164,
+  "total_bytes": 201455885,
+  "output": "C:\\Users\\yomas\\github\\Artificial Moral Architecture\\results\\research_20261018_024313"
+}

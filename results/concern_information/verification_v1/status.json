@@ -1,0 +1,14 @@
+[
+  {
+    "name": "tests",
+    "exit_code": 0
+  },
+  {
+    "name": "demo",
+    "exit_code": 0
+  },
+  {
+    "name": "affect_demo",
+    "exit_code": 0
+  }
+]

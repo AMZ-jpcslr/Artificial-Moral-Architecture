@@ -1,0 +1,11 @@
+{
+  "decisions": 384,
+  "fields_match_except_timing": true,
+  "differences": [],
+  "elapsed_seconds": 0.698144299996784,
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\yomas\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python_hash_seed": "123",
+  "frozen_sources_equal": true,
+  "scope": "12 families, first frozen seed, replicate 0, four current-prediction methods; already evaluated cases"
+}

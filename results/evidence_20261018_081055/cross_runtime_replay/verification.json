@@ -1,0 +1,11 @@
+{
+  "rows": 640,
+  "mismatches": [],
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\yomas\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_freeze_equal": true,
+  "elapsed_seconds": 6.596114700019825,
+  "finished_utc": "2026-10-17T23:36:12.303015+00:00",
+  "note": "Verification replay, not new independent evidence. All non-time decision CSV fields compared."
+}

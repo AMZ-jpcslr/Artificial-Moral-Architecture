@@ -1,0 +1,4 @@
+variant,rows,refusals_recovered,new_unjustified_refusals,newly_dangerous,danger_removed,safe_success_added,safe_success_removed,public_unsupported_alt_new,old_hard_violations_removed
+current,44,0,0,0,0,0,0,0,0
+guilt_event,44,14,0,0,0,14,0,0,0
+numeric_set,44,30,0,0,0,30,0,0,0

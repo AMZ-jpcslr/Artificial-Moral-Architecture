@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-10-17T23:10:55+00:00",
+  "completed_utc": "2026-10-17T23:52:06.602159+00:00",
+  "wall_seconds": 2471.602159,
+  "verification_reporting_seconds": 1302.597147,
+  "prospective_decisions": 150528,
+  "development_decisions": 288,
+  "old_regression_decisions": 384,
+  "cross_runtime_replay_decisions": 640,
+  "refusal_state_reconstructions": 44,
+  "unique_tests_passed": 246,
+  "main_experiment_seconds": 336.40976439998485,
+  "adopted": false,
+  "criteria_passed": 9,
+  "criteria_total": 10,
+  "existing_files_changed": 0,
+  "source_files_added": 20,
+  "prohibited_actions": {
+    "external_transmission": 0,
+    "paid_api_calls": 0,
+    "installations": 0,
+    "commits": 0,
+    "pushes": 0,
+    "real_world_actions": 0
+  },
+  "incomplete": [
+    "Independent human annotation and external validity",
+    "Deployment/adoption",
+    "Free-form or many-candidate generation",
+    "Natural-language evidence interpretation",
+    "Real source authentication and reliability calibration",
+    "New prospective validation of identified soft-review and benign-conflict failure paths"
+  ]
+}
